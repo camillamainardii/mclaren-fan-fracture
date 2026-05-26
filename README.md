@@ -2,7 +2,7 @@
 
 > Measuring McLaren's fan polarization through Reddit, 2024-2025.
 
-Web & Social Media Analytics — Final project · Politecnico di Milano Graduate School of Management
+Web & Social Media Analytics — Final project
 
 **Team:** Camilla Mainardi · Ramna Jalil · Bilge Yalçın
 
