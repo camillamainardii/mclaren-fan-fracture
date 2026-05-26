@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How a championship fractured a fandom</title>
+<meta name="viewport" content="width=1280, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<style>
+:root {
+  --papaya: #FF8000;
+  --papaya-bright: #FF9933;
+  --papaya-dark: #CC6600;
+  --black: #0A0A0A;
+  --black-card: #1A1A1A;
+  --black-soft: #2A2A2A;
+  --cream: #F5F1EA;
+  --white: #FFFFFF;
+  --gray-text: #888888;
+  --gray-line: #DDDDDD;
+  --piastri-blue: #1E88E5;
+  --verstappen-red: #D32F2F;
+  --r: 12px;          /* unified box radius */
+  --r-card: 16px;     /* larger cards */
+}
+
+/* ─── Global reveal overrides ─── */
+.reveal {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background: var(--black);
+}
+.reveal .slides { text-align: left; }
+.reveal section {
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.95;
+  margin: 0;
+}
+
+/* ─── Slide containers ─── */
+.slide {
+  position: relative;
+  width: 100%; height: 100%;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.slide-dark { background: var(--black); color: var(--white); }
+.slide-light { background: var(--cream); color: var(--black); }
+
+/* ─── McLaren logo (every slide, top-right) ─── */
+.mcl-logo {
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  width: 64px;
+  height: 36px;
+  background-image: url("images/mclaren- orange logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 50;
+  opacity: 0.95;
+}
+
+/* ─── Page number / footer marker (every slide, bottom-left) ─── */
+.slide-num {
+  position: absolute;
+  bottom: 22px;
+  left: 28px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  z-index: 50;
+  color: var(--papaya);
+}
+.slide-dark .slide-num { color: var(--papaya); opacity: 0.7; }
+.slide-light .slide-num { color: var(--papaya); opacity: 0.65; }
+
+/* ─── Faded background image utility ─── */
+.bg-image {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.bg-image.left { background-position: left center; }
+.bg-image.right { background-position: right center; }
+.bg-overlay {
+  position: absolute; inset: 0;
+  z-index: 1;
+}
+.bg-overlay.dark-fade {
+  background: linear-gradient(to right, rgba(10,10,10,0.96) 0%, rgba(10,10,10,0.78) 40%, rgba(10,10,10,0.50) 80%, rgba(10,10,10,0.30) 100%);
+}
+.bg-overlay.dark-full {
+  background: linear-gradient(to right, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.85) 100%);
+}
+.bg-overlay.dark-vignette {
+  background: radial-gradient(ellipse at center, rgba(10,10,10,0.60) 30%, rgba(10,10,10,0.95) 100%);
+}
+.bg-overlay.light-fade {
+  background: linear-gradient(to left, rgba(245,241,234,0.95) 0%, rgba(245,241,234,0.70) 50%, rgba(245,241,234,0.20) 100%);
+}
+
+/* ─── SLIDE 1 — COVER ─── */
+.s1-bg {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--black) 0%, #1A0F00 50%, var(--black) 100%);
+}
+.s1-hero {
+  position: absolute; inset: 0;
+  background-image: url("images/MCL40-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.40;
+  filter: contrast(1.15) brightness(0.7);
+}
+.s1-diag {
+  position: absolute;
+  width: 60%; height: 140%;
+  background: var(--papaya);
+  top: -20%; right: -10%;
+  transform: rotate(15deg);
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 60% 100%);
+  opacity: 0.92;
+}
+.s1-content {
+  position: relative; z-index: 2;
+  padding: 70px 80px;
+  display: flex; flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.s1-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px; letter-spacing: 0.2em;
+  color: var(--papaya); text-transform: uppercase;
+}
+.s1-title {
+  font-size: 110px;
+  color: var(--white);
+  line-height: 0.92;
+  max-width: 1050px;
+}
+.s1-title em { font-style: normal; color: var(--papaya); display: block; }
+.s1-sub {
+  font-size: 22px;
+  color: var(--white);
+  font-weight: 300;
+  margin-top: 24px;
+  max-width: 700px;
+}
+.s1-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px; letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  display: flex; justify-content: space-between; align-items: end;
+}
+.s1-meta strong { color: var(--white); font-weight: 500; }
+
+/* ─── SLIDE 2 — BUSINESS OF FANDOM (DARK + crowd image) ─── */
+.s2 {
+  color: var(--white);
+  padding: 0;
+}
+.s2-content {
+  position: relative; z-index: 2;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  padding: 70px 80px;
+  gap: 50px;
+  width: 100%;
+}
+.s2-left h2 {
+  font-size: 64px;
+  margin-bottom: 26px;
+  color: var(--white);
+}
+.s2-left h2 em { font-style: normal; color: var(--papaya); }
+.s2-left p.lead {
+  font-size: 17px; color: rgba(255,255,255,0.85);
+  margin-bottom: 18px;
+  line-height: 1.55;
+}
+.s2-bullets {
+  list-style: none; padding: 0; margin: 18px 0 0;
+}
+.s2-bullets li {
+  padding: 12px 0 12px 26px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  font-size: 15px;
+  position: relative;
+  color: rgba(255,255,255,0.9);
+}
+.s2-bullets li:last-child { border-bottom: 1px solid rgba(255,255,255,0.15); }
+.s2-bullets li::before {
+  content: "›"; position: absolute; left: 0;
+  color: var(--papaya); font-weight: 900; font-size: 22px;
+}
+.s2-stat-box {
+  text-align: center;
+  background: var(--black-card);
+  border: 1px solid var(--black-soft);
+  border-radius: var(--r-card);
+  padding: 50px 30px;
+}
+.s2-stat-pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px; color: var(--papaya);
+  letter-spacing: 0.15em; text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.s2-stat {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 190px; font-weight: 900; line-height: 0.9;
+  color: var(--papaya);
+}
+.s2-stat-label {
+  font-size: 14px; margin-top: 22px;
+  font-weight: 300; line-height: 1.5;
+  color: rgba(255,255,255,0.7);
+}
+
+/* ─── SLIDE 3 — THE SELECTED IDEA (light + Duo photo) ─── */
+.s3 {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: stretch;
+  padding: 0;
+}
+.s3-photo {
+  background-image: url("images/The Duo in black background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: var(--r-card);
+  margin: 30px 0 30px 30px;
+}
+.s3-photo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.05), rgba(245,241,234,0.3));
+  border-radius: inherit;
+}
+.s3-content {
+  padding: 60px 70px;
+  display: flex; flex-direction: column;
+  justify-content: center;
+}
+.s3-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px; color: var(--papaya);
+  letter-spacing: 0.15em; text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.s3-q {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 44px; font-weight: 800;
+  line-height: 1.05;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+.s3-q strong { color: var(--papaya); }
+.s3-hyp {
+  font-size: 17px; line-height: 1.6;
+  color: var(--black);
+  border-left: 3px solid var(--papaya);
+  padding: 4px 0 4px 20px;
+}
+.s3-hyp-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--papaya);
+  letter-spacing: 0.2em; text-transform: uppercase;
+  margin-bottom: 8px; display: block;
+}
+
+/* ─── SLIDE 4 — DATASET (DARK + car backdrop) ─── */
+.s4 {
+  flex-direction: column;
+  padding: 0;
+  color: var(--white);
+}
+.s4-content {
+  position: relative; z-index: 2;
+  display: flex; flex-direction: column;
+  padding: 70px 80px 50px;
+  width: 100%; height: 100%;
+  box-sizing: border-box;
+}
+.s4-head {
+  display: flex; justify-content: space-between; align-items: end;
+  margin-bottom: 36px;
+}
+.s4-head h2 {
+  font-size: 60px; color: var(--white);
+}
+.s4-head h2 em { font-style: normal; color: var(--papaya); }
+.s4-source {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px; letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.6);
+}
+.s4-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  flex-grow: 1;
+}
+.s4-stat {
+  background: var(--black-card);
+  border: 1px solid var(--black-soft);
+  border-top: 3px solid var(--papaya);
+  border-radius: var(--r-card);
+  padding: 32px 26px;
+  display: flex; flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  min-height: 0;
+}
+.s4-stat-n {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 0.85;
+  color: var(--white);
+}
+.s4-stat-n .unit { font-size: 50px; color: var(--papaya); }
+.s4-stat-pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--papaya);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.s4-stat-l {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.55;
+  margin-top: 4px;
+}
+.s4-stat-sub {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.10);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--gray-text);
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+.s4-foot {
+  margin-top: 28px; padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  display: flex; justify-content: space-between;
+  font-size: 13px; color: rgba(255,255,255,0.55);
+}
+
+/* ─── SLIDE 5 — SENTIMENT CHART (DARK + faded car bg) ─── */
+.s5 {
+  flex-direction: column;
+  padding: 0;
+  color: var(--white);
+}
+.s5-content {
+  position: relative; z-index: 2;
+  display: flex; flex-direction: column;
+  padding: 40px 60px 30px;
+  width: 100%; height: 100%;
+  box-sizing: border-box;
+}
+.s5-head {
+  margin-bottom: 16px;
+}
+.s5-head h2 {
+  font-size: 46px; color: var(--white); margin-bottom: 6px;
+}
+.s5-head h2 em { font-style: normal; color: var(--papaya); }
+.s5-head p {
+  font-size: 13px; color: rgba(255,255,255,0.6);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.08em;
+}
+.s5-chart {
+  flex-grow: 1;
+  background: var(--black-card);
+  border: 1px solid var(--black-soft);
+  border-radius: var(--r-card);
+  padding: 14px;
+  display: flex; align-items: center; justify-content: center;
+}
+.s5-chart img {
+  width: 100%; height: 100%;
+  max-height: 100%; object-fit: contain;
+  border-radius: 6px;
+}
+.s5-callouts {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 18px; margin-top: 16px;
+}
+.s5-callout {
+  background: var(--black-card);
+  border: 1px solid var(--black-soft);
+  border-left: 3px solid var(--papaya);
+  border-radius: var(--r);
+  padding: 14px 18px;
+}
+.s5-callout-num {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 36px; font-weight: 900;
+  color: var(--papaya);
+  line-height: 1;
+}
+.s5-callout-label {
+  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+/* ─── SLIDE 6 — TOPICS (LIGHT + faded race bg) ─── */
+.s6 {
+  padding: 0;
+  flex-direction: column;
+}
+.s6-content {
+  position: relative; z-index: 2;
+  padding: 50px 60px;
+  display: flex; flex-direction: column;
+  width: 100%; height: 100%;
+  box-sizing: border-box;
+}
+.s6-head {
+  display: flex; justify-content: space-between; align-items: end;
+  margin-bottom: 22px;
+}
+.s6-head h2 { font-size: 48px; }
+.s6-head h2 em { font-style: normal; color: var(--papaya); }
+.s6-head .sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px; color: var(--gray-text); letter-spacing: 0.08em;
+}
+.s6-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 14px; flex-grow: 1;
+}
+.s6-card {
+  background: var(--white);
+  padding: 22px 24px 20px;
+  border-left: 5px solid var(--gray-line);
+  border-radius: var(--r);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 12px;
+}
+.s6-card.neg { border-left-color: var(--verstappen-red); }
+.s6-card.mid { border-left-color: var(--papaya); }
+.s6-card-event {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px; color: var(--gray-text);
+  letter-spacing: 0.12em; text-transform: uppercase;
+}
+.s6-card-title {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800; font-size: 27px;
+  line-height: 1.05;
+  color: var(--black);
+}
+.s6-card-quote {
+  font-size: 17px;
+  color: var(--black);
+  line-height: 1.5;
+  padding: 14px 16px;
+  background: rgba(0,0,0,0.045);
+  border-radius: 8px;
+  border-left: 3px solid var(--papaya);
+  font-style: italic;
+}
+.s6-card-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0,0,0,0.10);
+}
+.s6-card-terms {
+  font-size: 13px; color: var(--gray-text);
+  line-height: 1.45; font-family: 'JetBrains Mono', monospace;
+  flex: 1;
+}
+.s6-card-sent {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 38px; font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.s6-card.neg .s6-card-sent { color: var(--verstappen-red); }
+.s6-card.mid .s6-card-sent { color: var(--papaya); }
+
+/* ─── SLIDE 7 — COMMUNITIES (explicit layered stacking) ─── */
+.s7 { padding: 0; position: relative; }
+
+/* Layer 1: the silverstone background image */
+.s7-bg {
+  position: absolute; inset: 0;
+  background-image: url("images/silverstone-sunday-fan-zone-drivers-pose.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+/* Layer 2: a strong opaque-ish overlay to dim the image */
+.s7-bg-overlay {
+  position: absolute; inset: 0;
+  background: rgba(245,241,234,0.92);
+  z-index: 2;
+}
+/* Layer 3: all the content goes here, ABOVE the overlay */
+.s7-content {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1.05fr 1.15fr;
+  gap: 24px;
+  padding: 50px 60px;
+  width: 100%; height: 100%;
+  box-sizing: border-box;
+}
+.s7-left, .s7-right {
+  position: relative; z-index: 11;
+  display: flex; flex-direction: column;
+}
+.s7-left h2 { font-size: 42px; line-height: 1; color: var(--black); }
+.s7-left h2 em { font-style: normal; color: var(--papaya); }
+.s7-left .sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--gray-text);
+  margin: 10px 0 18px; letter-spacing: 0.06em; line-height: 1.5;
+}
+.s7-right { gap: 18px; }
+
+/* Solid white boxes — explicit white, explicit z-index, no leakage */
+.s7-network,
+.s7-bias {
+  position: relative;
+  z-index: 12;
+  background: #FFFFFF !important;
+  border-radius: var(--r-card);
+  box-shadow: 0 3px 14px rgba(0,0,0,0.15);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+.s7-network {
+  flex-grow: 1;
+  padding: 12px;
+  margin-top: 4px;
+}
+.s7-bias {
+  flex-grow: 1;
+  padding: 12px 14px;
+  min-height: 0;
+}
+.s7-network img,
+.s7-bias img {
+  position: relative;
+  z-index: 13;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* The black callout */
+.s7-finding {
+  position: relative;
+  z-index: 12;
+  background: var(--black);
+  color: var(--white);
+  padding: 22px 24px;
+  border-radius: var(--r);
+  border-left: 4px solid var(--papaya);
+}
+.s7-finding-num {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900; color: var(--papaya);
+  font-size: 44px; line-height: 1;
+}
+.s7-finding-text {
+  font-size: 13px; line-height: 1.55;
+  margin-top: 8px;
+}
+
+/* ─── SLIDE 8 — METHODS (dark, tech-stack grid + bg image) ─── */
+.s8 {
+  padding: 0;
+  flex-direction: column;
+  color: var(--white);
+}
+.s8-content {
+  position: relative; z-index: 2;
+  padding: 50px 70px;
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  box-sizing: border-box;
+}
+.s8 h2 { font-size: 52px; color: var(--white); }
+.s8 h2 em { font-style: normal; color: var(--papaya); }
+.s8-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px; color: var(--papaya);
+  letter-spacing: 0.1em;
+  margin: 8px 0 24px;
+}
+.s8-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 14px; flex-grow: 1;
+}
+.s8-card {
+  background: rgba(26,26,26,0.88);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--black-soft);
+  border-radius: var(--r);
+  padding: 24px 22px 18px;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 12px;
+}
+.s8-card-icon {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  color: var(--papaya);
+  line-height: 1;
+}
+.s8-card-title {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800; font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.s8-card-desc {
+  font-size: 14px; line-height: 1.55;
+  color: rgba(255,255,255,0.72);
+}
+.s8-card-stack {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--gray-text);
+  letter-spacing: 0.05em;
+  border-top: 1px solid var(--black-soft);
+  padding-top: 10px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+/* ─── SLIDE 9 — PROTOTYPE (light, browser frame) ─── */
+.s9 {
+  padding: 40px 60px;
+  flex-direction: column;
+}
+.s9-head h2 { font-size: 48px; }
+.s9-head h2 em { font-style: normal; color: var(--papaya); }
+.s9-head p {
+  font-size: 13px; color: var(--gray-text);
+  margin: 6px 0 20px;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.08em;
+}
+.s9-body {
+  display: grid; grid-template-columns: 2fr 1fr; gap: 24px; flex-grow: 1;
+  align-items: center;
+}
+.s9-browser {
+  background: var(--white);
+  border-radius: var(--r-card);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.18);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.s9-browser-bar {
+  background: #E8E8E8;
+  padding: 10px 16px;
+  display: flex; align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #D0D0D0;
+}
+.s9-dot { width: 12px; height: 12px; border-radius: 50%; }
+.s9-dot.r { background: #FF5F57; }
+.s9-dot.y { background: #FEBC2E; }
+.s9-dot.g { background: #28C840; }
+.s9-browser-url {
+  background: white;
+  padding: 5px 16px;
+  border-radius: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: #555;
+  margin-left: 12px;
+  flex-grow: 1;
+}
+.s9-screenshot {
+  flex-grow: 1;
+  display: flex; align-items: center; justify-content: center;
+  background: #fff;
+  padding: 24px; text-align: center;
+  color: var(--gray-text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+}
+.s9-screenshot img { width: 100%; height: 100%; object-fit: contain; }
+.s9-features { display: flex; flex-direction: column; gap: 16px; }
+.s9-feat {
+  background: var(--white);
+  padding: 18px 20px;
+  border-left: 4px solid var(--papaya);
+  border-radius: var(--r);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.s9-feat-t {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800; font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+.s9-feat-d {
+  font-size: 14px; color: #555;
+  margin-top: 6px; line-height: 1.5;
+}
+
+/* ─── SLIDE 10 — CONCLUSIONS (dark, taller hero, content moved down) ─── */
+.s10 {
+  padding: 0;
+  flex-direction: column;
+  background: var(--black);
+}
+.s10-hero {
+  height: 52%;
+  background-image: url("images/Lando Norris_ Drivers' World Champion-desktop.jpe");
+  background-size: cover;
+  background-position: center 18%;
+  position: relative;
+}
+.s10-hero::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(10,10,10,0.20) 0%, rgba(10,10,10,0.65) 75%, rgba(10,10,10,1) 100%);
+}
+.s10-hero-title {
+  position: absolute;
+  bottom: -125px; left: 70px;
+  z-index: 2;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900;
+  font-size: 76px;
+  color: var(--white);
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+.s10-hero-title em { font-style: normal; color: var(--papaya); }
+.s10-pillars {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  padding: 150px 70px 18px;
+  color: var(--white);
+}
+.s10-pillar {
+  background: var(--black-card);
+  border: 1px solid var(--black-soft);
+  border-radius: var(--r);
+  padding: 18px 20px;
+  position: relative;
+}
+.s10-pillar::before {
+  content: "";
+  position: absolute;
+  top: -1px; left: -1px; right: -1px;
+  height: 3px;
+  background: var(--papaya);
+  border-radius: var(--r) var(--r) 0 0;
+}
+.s10-pillar-n {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--papaya);
+  letter-spacing: 0.2em; text-transform: uppercase;
+}
+.s10-pillar-t {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 900; font-size: 32px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 6px 0 8px;
+  line-height: 1;
+}
+.s10-pillar-d {
+  font-size: 12px; color: rgba(255,255,255,0.78);
+  line-height: 1.5;
+}
+.s10-quote {
+  padding: 10px 70px 14px;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700; font-style: italic;
+  font-size: 22px;
+  color: var(--papaya);
+  border-left: 3px solid var(--papaya);
+  margin: 8px 0 0 70px;
+  padding-left: 22px;
+}
+.s10-foot {
+  margin-top: auto;
+  padding: 14px 70px 22px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  text-align: center;
+}
+
+.s10-foot strong { color: var(--white); font-weight: 500; }
+
+/* ─── Reveal progress + controls in brand color ─── */
+.reveal .progress { color: var(--papaya); height: 4px; }
+.reveal .controls { color: var(--papaya); }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 1 ═══ -->
+<section>
+  <div class="slide slide-dark">
+    <div class="s1-bg"></div>
+    <div class="s1-hero"></div>
+    <div class="s1-diag"></div>
+    <div class="s1-content">
+      <div><div class="s1-tag">Web &amp; Social Media Analytics · Final project</div></div>
+      <div>
+        <h1 class="s1-title">How a championship<br><em>fractured a fandom</em></h1>
+        <p class="s1-sub">Measuring McLaren's fan polarization through Reddit, 2024-2025.</p>
+      </div>
+      <div class="s1-meta">
+        <div><strong>Camilla Mainardi</strong> · <strong>Ramna Jalil</strong> · <strong>Bilge Yalçın</strong></div>
+        <div>2026</div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">01 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 2 ═══ -->
+<section>
+  <div class="slide slide-dark s2">
+    <div class="bg-image left" style="background-image:url('images/crowd around lando.jpg'); background-position: center;"></div>
+    <div class="bg-overlay dark-full"></div>
+    <div class="s2-content">
+      <div class="s2-left">
+        <h2>The business of <em>fandom.</em></h2>
+        <p class="lead">
+          Formula 1 is a media and sponsorship business in which fan perception
+          is brand value. When teams make controversial in-race decisions,
+          that value is publicly negotiated — in real time — on social media.
+        </p>
+        <ul class="s2-bullets">
+          <li>Social platforms are the primary surface for fan sentiment in elite sports.</li>
+          <li>Traditional fan-perception tools (surveys, focus groups) are slow and expensive.</li>
+          <li>Reddit communities aggregate the most engaged segment of any fanbase.</li>
+          <li>Opportunity: real-time social listening as a polarization detector.</li>
+        </ul>
+      </div>
+      <div class="s2-stat-box">
+        <div class="s2-stat-pre">F1 industry revenue</div>
+        <div class="s2-stat">$3.7B</div>
+        <div class="s2-stat-label">2024 — driven primarily by broadcasting, sponsorship and race-promotion contracts.</div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">02 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 3 ═══ -->
+<section>
+  <div class="slide slide-light s3">
+    <div class="s3-photo"></div>
+    <div class="s3-content">
+      <div class="s3-eyebrow">The selected idea</div>
+      <p class="s3-q">
+        When a sports brand makes <strong>controversial in-season decisions</strong>,
+        can we detect from social media alone whether its fanbase has fractured —
+        and pinpoint <strong>when, where, and how severely</strong>?
+      </p>
+      <div class="s3-hyp">
+        <span class="s3-hyp-label">Subject</span>
+        McLaren F1, navigating an internal championship battle between teammates
+        Lando Norris and Oscar Piastri across 2024-2025 — defined by ten
+        controversial 'team orders' moments, starting with the Hungarian GP 2024
+        swap (<em>patient zero</em>).
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">03 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 4 ═══ -->
+<section>
+  <div class="slide slide-dark s4">
+    <div class="bg-image right" style="background-image:url('images/MCL-HY Track-desktop.jpg');"></div>
+    <div class="bg-overlay dark-fade"></div>
+    <div class="s4-content">
+      <div class="s4-head">
+        <h2>The <em>dataset.</em></h2>
+        <div class="s4-source">SOURCE — REDDIT.COM/R/FORMULA1 · 2024-2025</div>
+      </div>
+      <div class="s4-grid">
+        <div class="s4-stat">
+          <div class="s4-stat-pre">Volume 01</div>
+          <div class="s4-stat-n">5,213</div>
+          <div class="s4-stat-l">Reddit posts collected from r/formula1 via the public JSON endpoint.</div>
+          <div class="s4-stat-sub">→ 44% fall within the 2024-2025 target window</div>
+        </div>
+        <div class="s4-stat">
+          <div class="s4-stat-pre">Volume 02</div>
+          <div class="s4-stat-n">143<span class="unit">k</span></div>
+          <div class="s4-stat-l">Comments fetched with full author and parent-thread preserved.</div>
+          <div class="s4-stat-sub">→ 110,960 in 2024-2025 window analyzed</div>
+        </div>
+        <div class="s4-stat">
+          <div class="s4-stat-pre">People</div>
+          <div class="s4-stat-n">32<span class="unit">k</span></div>
+          <div class="s4-stat-l">Unique commenters — the input to community detection.</div>
+          <div class="s4-stat-sub">→ 8,329 active users (≥3 posts)</div>
+        </div>
+        <div class="s4-stat">
+          <div class="s4-stat-pre">Anchors</div>
+          <div class="s4-stat-n">10</div>
+          <div class="s4-stat-l">Flashpoint races identified as analytical anchors (F1-expert sourced).</div>
+          <div class="s4-stat-sub">→ Patient zero: Hungarian GP 2024</div>
+        </div>
+      </div>
+      <div class="s4-foot">
+        <div>Time span: January 2024 → December 2025</div>
+        <div>Resumable scraper · checkpoint every 5,000 comments · polite rate-limiting</div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">04 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 5 ═══ -->
+<section>
+  <div class="slide slide-dark s5">
+    <div class="bg-image" style="background-image:url('images/MCL-HY -desktop.jpg'); opacity: 0.35;"></div>
+    <div class="bg-overlay dark-vignette"></div>
+    <div class="s5-content">
+      <div class="s5-head">
+        <h2>Did sentiment <em>actually crash</em>?</h2>
+        <p>ANALYSIS 1 · ASPECT-ORIENTED SENTIMENT · CARDIFFNLP/TWITTER-ROBERTA · WEEKLY · 110,960 COMMENTS</p>
+      </div>
+      <div class="s5-chart">
+        <img src="data/analysis/chart_sentiment_trajectory_DARK.png" alt="Sentiment trajectory">
+      </div>
+      <div class="s5-callouts">
+        <div class="s5-callout">
+          <div class="s5-callout-num">–0.44</div>
+          <div class="s5-callout-label">McLaren sentiment at Hungary 2024 — <strong>patient zero confirmed</strong>.</div>
+        </div>
+        <div class="s5-callout">
+          <div class="s5-callout-num">–0.44</div>
+          <div class="s5-callout-label">Team-management sentiment at Italian GP 2025 — the 'slow pit stops' event.</div>
+        </div>
+        <div class="s5-callout">
+          <div class="s5-callout-num">≈ 0</div>
+          <div class="s5-callout-label">Verstappen as cross-team control — proves negativity is McLaren-specific.</div>
+        </div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">05 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 6 ═══ -->
+<section>
+  <div class="slide slide-light s6">
+    <div class="bg-image right" style="background-image:url('images/Monaco GP 2025 - Lando cheers.jpg'); opacity: 0.18;"></div>
+    <div class="s6-content">
+      <div class="s6-head">
+        <h2>What were fans <em>arguing</em> about?</h2>
+        <div class="sub">ANALYSIS 2 · LDA, K=5 PER EVENT · ±7 DAYS WINDOW</div>
+      </div>
+      <div class="s6-grid">
+        <div class="s6-card neg">
+          <div class="s6-card-event">2025-09-07 · Italian GP</div>
+          <div class="s6-card-title">"Slow pit stops are part of racing"</div>
+          <div class="s6-card-quote">"We said a slow pit stop was part of racing. I don't really get what changed here." — Piastri's iconic radio message.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">pit · stop · slow · swap · undercut</div>
+            <div class="s6-card-sent">+0.00</div>
+          </div>
+        </div>
+        <div class="s6-card neg">
+          <div class="s6-card-event">2025-10-05 · Singapore GP</div>
+          <div class="s6-card-title">"Papaya rules" emerges as a topic</div>
+          <div class="s6-card-quote">LDA isolates the explicit "papaya rules" bigram as a topic-defining term — the framework itself is now being debated.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">papaya · rules · contact · incident</div>
+            <div class="s6-card-sent">+0.06</div>
+          </div>
+        </div>
+        <div class="s6-card neg">
+          <div class="s6-card-event">2025-10-18 · US GP Sprint</div>
+          <div class="s6-card-title">Zak Brown enters the discourse</div>
+          <div class="s6-card-quote">First and only event where 'Zak' is a top topic term. Fans name and blame leadership for the Norris-Piastri collision.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">piastri · norris · zak</div>
+            <div class="s6-card-sent">−0.02</div>
+          </div>
+        </div>
+        <div class="s6-card neg">
+          <div class="s6-card-event">2025-11-30 · Qatar GP</div>
+          <div class="s6-card-title">Strategy failure crystallized</div>
+          <div class="s6-card-quote">Alternative-strategy decision sealed Verstappen's win. Profanity surfaces as defining vocabulary in the dominant topic.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">lando · mclaren · pit · said</div>
+            <div class="s6-card-sent">−0.01</div>
+          </div>
+        </div>
+        <div class="s6-card mid">
+          <div class="s6-card-event">2024-07-21 · Hungarian GP</div>
+          <div class="s6-card-title">Patient zero of the schism</div>
+          <div class="s6-card-quote">The original Norris-Piastri swap. Reluctance over the radio became the defining audio clip of the McLaren saga.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">lando · mclaren · oscar · win</div>
+            <div class="s6-card-sent">+0.08</div>
+          </div>
+        </div>
+        <div class="s6-card mid">
+          <div class="s6-card-event">2025-12-07 · Abu Dhabi GP</div>
+          <div class="s6-card-title">Bittersweet championship topic</div>
+          <div class="s6-card-quote">Highest-sentiment topic of the dataset (+0.24) — yet team-management sentiment hits a season low (−0.33) the same week.</div>
+          <div class="s6-card-foot">
+            <div class="s6-card-terms">lando · max · championship · won</div>
+            <div class="s6-card-sent">+0.24</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">06 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 7 ═══ -->
+<section>
+  <div class="slide slide-light s7">
+    <!-- Layer 1: background image -->
+    <div class="s7-bg"></div>
+    <!-- Layer 2: opaque overlay to dim it -->
+    <div class="s7-bg-overlay"></div>
+    <!-- Layer 3: content above -->
+    <div class="s7-content">
+      <div class="s7-left">
+        <h2>Did the fanbase <em>split into tribes</em>?</h2>
+        <div class="sub">ANALYSIS 3 · LOUVAIN ON CO-ENGAGEMENT GRAPH · 8,329 USERS · 937,864 EDGES · MODULARITY 0.267</div>
+        <div class="s7-network">
+          <img src="data/analysis/chart_community_network_small.png" alt="Commenter community network">
+        </div>
+      </div>
+      <div class="s7-right">
+        <div class="s7-bias">
+          <img src="data/analysis/chart_community_bias_BRAND 2.png" alt="Per-community sentiment bias">
+        </div>
+        <div class="s7-finding">
+          <div class="s7-finding-num">C3</div>
+          <div class="s7-finding-text">
+            Smallest community (n=643) is mildly Norris-leaning <strong>and</strong> holds
+            the most negative McLaren-team sentiment (−0.27). The polarization is
+            primarily <em>emotional</em>, not structural.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">07 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 8 ═══ -->
+<section>
+  <div class="slide slide-dark s8">
+    <div class="bg-image" style="background-image:url('images/Mexico City GP \'25-desktop.jpg'); opacity: 0.20;"></div>
+    <div class="bg-overlay dark-vignette"></div>
+    <div class="s8-content">
+      <h2>How we <em>measured</em> it.</h2>
+      <div class="s8-sub">METHODS & STRATEGIES · OPEN-SOURCE PYTHON STACK</div>
+      <div class="s8-grid">
+        <div class="s8-card">
+          <div class="s8-card-icon">01</div>
+          <div class="s8-card-title">Collection</div>
+          <div class="s8-card-desc">Reddit's public JSON API. Polite rate-limiting, full comment-tree extraction, checkpoint resumability.</div>
+          <div class="s8-card-stack">requests · python-stdlib</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">02</div>
+          <div class="s8-card-title">Sentiment</div>
+          <div class="s8-card-desc">Transformer model (cardiffnlp/twitter-roberta), validated against VADER baseline at Pearson r=0.44.</div>
+          <div class="s8-card-stack">transformers · torch</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">03</div>
+          <div class="s8-card-title">Topics</div>
+          <div class="s8-card-desc">Latent Dirichlet Allocation, K=5 per event. TF-IDF features, n-gram (1,2), domain stop-word filtering.</div>
+          <div class="s8-card-stack">scikit-learn · pandas</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">04</div>
+          <div class="s8-card-title">Network</div>
+          <div class="s8-card-desc">Bipartite users × posts → user-user co-engagement. Louvain community detection plus centrality.</div>
+          <div class="s8-card-stack">networkx · python-louvain</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">05</div>
+          <div class="s8-card-title">Aspects</div>
+          <div class="s8-card-desc">Regex-based entity-mention detection. Five aspects: Norris, Piastri, McLaren, Verstappen, Team mgmt.</div>
+          <div class="s8-card-stack">re · pandas</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">06</div>
+          <div class="s8-card-title">Validation</div>
+          <div class="s8-card-desc">Two-method triangulation. VADER's documented positive bias justified the transformer as primary.</div>
+          <div class="s8-card-stack">scipy · stratified sampling</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">07</div>
+          <div class="s8-card-title">Events</div>
+          <div class="s8-card-desc">Ten flashpoint races as analytical anchors. ±7-day windows for event-conditioned analyses.</div>
+          <div class="s8-card-stack">F1-expert sourced timeline</div>
+        </div>
+        <div class="s8-card">
+          <div class="s8-card-icon">08</div>
+          <div class="s8-card-title">Control</div>
+          <div class="s8-card-desc">Verstappen sentiment as cross-team control variable to isolate McLaren-specific effects.</div>
+          <div class="s8-card-stack">cross-aspect comparison</div>
+        </div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">08 / 10</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ SLIDE 9 ═══ -->
+<section>
+  <div class="slide slide-light s9">
+    <div class="s9-head">
+      <h2>The <em>prototype</em>.</h2>
+      <p>STREAMLIT DASHBOARD · INTERACTIVE PLOTLY CHARTS · 6 ANALYTICAL VIEWS · LOCAL DEPLOYMENT</p>
+    </div>
+    <div class="s9-body">
+      <div class="s9-browser">
+        <div class="s9-browser-bar">
+          <div class="s9-dot r"></div><div class="s9-dot y"></div><div class="s9-dot g"></div>
+          <div class="s9-browser-url">localhost:8501 — How a championship fractured a fandom</div>
+        </div>
+        <div class="s9-screenshot" style="padding: 0; background: #0A0A0A;">
+          <img src="images/dashboard_screenshot.png" alt="Streamlit dashboard">
+        </div>
+      </div>
+      <div class="s9-features">
+        <div class="s9-feat">
+          <div class="s9-feat-t">Interactive trajectory</div>
+          <div class="s9-feat-d">Toggle aspects, switch VADER ↔ transformer, choose smoothing window.</div>
+        </div>
+        <div class="s9-feat">
+          <div class="s9-feat-t">Event drill-down</div>
+          <div class="s9-feat-d">Pick any of 10 flashpoints → top LDA topics with representative comments.</div>
+        </div>
+        <div class="s9-feat">
+          <div class="s9-feat-t">Community explorer</div>
+          <div class="s9-feat-d">Per-community sentiment table + network image + bridge users ranked.</div>
+        </div>
+        <div class="s9-feat">
+          <div class="s9-feat-t">Method validation</div>
+          <div class="s9-feat-d">VADER vs Transformer scatter, with disagreement examples surfaced.</div>
+        </div>
+      </div>
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">09 / 10</div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ SLIDE 10 ═══ -->
+<section>
+  <div class="slide s10">
+    <div class="s10-hero">
+      <div class="s10-hero-title">A multi-layered<br><em>fracture.</em></div>
+    </div>
+    <div class="s10-pillars">
+      <div class="s10-pillar">
+        <div class="s10-pillar-n">Layer 01</div>
+        <div class="s10-pillar-t">Temporal</div>
+        <div class="s10-pillar-d">McLaren-aspect sentiment crashes at every flashpoint while Verstappen baseline holds. Patient zero: Hungary 2024.</div>
+      </div>
+      <div class="s10-pillar">
+        <div class="s10-pillar-n">Layer 02</div>
+        <div class="s10-pillar-t">Topical</div>
+        <div class="s10-pillar-d">Distinct grievance topics emerge per event. 'Slow pit stops', 'Zak Brown', 'papaya rules' become discrete LDA clusters.</div>
+      </div>
+      <div class="s10-pillar">
+        <div class="s10-pillar-n">Layer 03</div>
+        <div class="s10-pillar-t">Structural</div>
+        <div class="s10-pillar-d">Mild Norris-leaning sub-tribe (n=643) holds the worst team sentiment. Polarization is detectable in the network.</div>
+      </div>
+    </div>
+    <div class="s10-quote">"Winning didn't heal the fracture — and championship victories do not erase the brand debt."</div>
+    <div class="s10-foot">
+      <strong>Camilla Mainardi · Ramna Jalil · Bilge Yalçın</strong>  ·  Web &amp; Social Media Analytics · 2026
+    </div>
+    <div class="mcl-logo"></div>
+    <div class="slide-num">10 / 10</div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  width: 1600, height: 900, margin: 0,
+  controls: true, progress: true, hash: true,
+  transition: 'slide', transitionSpeed: 'fast',
+});
+</script>
+</body>
+</html>

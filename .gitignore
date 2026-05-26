@@ -1,0 +1,39 @@
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# ─── OS / Editor ───
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# ─── Lecture PDFs (course material, not deliverable) ───
+02-Web-REST-API-scraping.pdf
+06-brambilla-recommenders-2023.pdf
+08-brambilla-wrangling.pdf
+11-topic-analysis.pdf
+brambilla01-social-sentiment-analysis-cases.pdf
+brambilla02-sentiment.pdf
+brambilla03-NER.pdf
+brambilla04-Word-embedding.pdf
+brambilla05-representation-learning.pdf
+brambilla06-enterprise-social-networks.pdf
+
+# ─── Large raw data the dashboard doesn't load ───
+# Raw scraped comments (300+ JSON files, ~200 MB)
+data/comments/
+# Per-comment CSVs (33 MB combined) — dashboard uses only the weekly aggregates
+data/analysis/sentiment_per_aspect_comments.csv
+data/analysis/sentiment_per_aspect_comments_TX.csv
+data/analysis/users_communities_VADER.csv
+data/analysis/communities_summary_VADER.json
+# Old/duplicate logs
+data/keywords_log.json
+
+# ─── Build / temp ───
+/tmp/slides_export/

@@ -1,0 +1,412 @@
+TOPIC MODELING PER FLASHPOINT EVENT
+===========================================================================
+
+===========================================================================
+2024-07-21  Hungarian GP 2024
+Patient zero. Norris-Piastri swap controversy. Fanbase split begins.
+  Comments in window: 2,760
+  Unique authors:     2,007
+
+  Topic 0  (n=563, sentiment=+0.129)
+    Top terms: max, perez, verstappen, lewis, pole, fucking, year, leclerc, shit, didn, win, crofty
+    Representative comments:
+      • [VADER +0.50]  People forget this is Max’s home race too. He loves this track. He will not make it easy tomorrow. Jos hates Belgium because Max’s mom is Belgian and Max was born and raised there, but this is Max’s f
+      • [VADER +0.84]  My partner had to miss this race. He’s going to have the result spoiled tomorrow and be so happy our favourite got his first win.  Then he’ll watch the race.
+      • [VADER +0.00]  Max:    Crofty: MAX VERSTAPPEN STAYED UP LATE LAST NIGHT
+
+  Topic 1  (n=471, sentiment=+0.108)
+    Top terms: piastri, lando, mclaren, doesn, feel, red, ferrari, red bull, bull, years, doing, won
+    Representative comments:
+      • [VADER -0.31]  Well that’s not entirely true.  Piastri was definitely the quicker car until the last pit stops.   And it’s known Lando was destroying his tyres to a greater degree than Piastri was in order to manufa
+      • [VADER +0.90]  He's been showing his true colors ever since Red Bull stopped dominating this season. My friends were surprised but I'm just like, I told you he's still a child. Super immature
+      • [VADER -0.11]  Lando is showing to be so unprofessional. Sad to see mclaren with the fastest car on the track making such a scene.   Pd: Congrats to Piastri, amazing racing and attitude.
+
+  Topic 2  (n=955, sentiment=+0.079)
+    Top terms: lando, mclaren, oscar, win, norris, lewis, piastri, fuck, ve, let, position, did
+    Representative comments:
+      • [VADER +0.87]  They definitely fucked up a bit but I don’t think they expected Lando to go a bit rogue. They were fully expecting him to be a team player and give the lead back quickly so tried to show him some team
+      • [VADER -0.28]  I agree that it was a lot of unnecessary back and forth on the radio because Norris was being stubborn, but the situation would not have happened in the first place if they pitted Piastri first as the
+      • [VADER -0.85]  Imagine if Lando loses the wdc with like 2 points. Nevertheless, can’t blame Oscar or Lando. The team fucked it. They should’ve pitted Oscar first and let them battle it out
+
+  Topic 3  (n=372, sentiment=-0.032)
+    Top terms: grid, start, penalty, yuki, starting, races, penalties, place, new, starts, work, places
+    Representative comments:
+      • [VADER +0.34]  This only applies to "Classified drivers who have received **15 or fewer** cumulative grid place penalties". Otherwise (as in this case) the following holds:  &gt;42.3 d) Classified drivers who have a
+      • [VADER -0.83]  In case anybody is struggling to interpret that clause, it means that drivers with a "back of the grid" penalty will start behind all drivers with penalties of 15 places or less, even if those penalti
+      • [VADER -0.42]  It seems like the obvious answer is to roll grid penalties to the following race. But the number of grid places needs to be correctly matched with the part being replaced. For instance the ICE and tur
+
+  Topic 4  (n=399, sentiment=+0.026)
+    Top terms: checo, going, time, strategy, end, vcarb, does, wouldn, start, mean, getting, isn
+    Representative comments:
+      • [VADER -0.21]  I mean it's certainly a disadvantage, but the benefits offset that advantage to the point that it isn't a major difference imo.  Cons - no chance to make up places in the first few corners, have to us
+      • [VADER +0.56]  It honestly wouldn't make much of a difference. P20 to a pit lane start is a marginal difference given that you get to run a few laps in clean air as you catch up, and it also reduces the risk of gett
+      • [VADER -0.35]  No fresh tyres. Everyone sitting in pit lane for minutes on end.  He said there was no way he'd improve. And he was right, because no one did
+
+===========================================================================
+2024-09-01  Italian GP 2024
+Piastri lap-1 overtake on Norris. 'Papaya rules' enters public discourse.
+  Comments in window: 5,299
+  Unique authors:     2,891
+
+  Topic 0  (n=898, sentiment=+0.094)
+    Top terms: did, lando, know, shit, isn, saying, papaya, kimi, rules, say, teammate, fucking
+    Representative comments:
+      • [VADER +0.61]  Someone please help me, in how many hours does the race start? It’s 1pm Florence time now. I saw a board saying 2pm and now I see it saying 3pm. I’m abroad right now and can’t figure it out bc my phon
+      • [VADER +0.87]  Lando! Lando! Lando... Lando Norris is the greatest... The almighty Lando! Simply lovely, huh?
+      • [VADER +0.20]  Italian National Anthem is just a top 5 anthem in the world isn’t it?
+
+  Topic 1  (n=1021, sentiment=+0.164)
+    Top terms: mclaren, charles, ferrari, leclerc, second, strategy, stop, didn, tires, tyres, pit, lost
+    Representative comments:
+      • [VADER +0.00]  Leclerc defending a faster car the entire second stint on way older tires in a way slower car. 👑
+      • [VADER +0.00]  Charles Leclerc, Charles LECLERC, CHARLES LECLERC
+      • [VADER +0.42]  Leclerc deserved DoTD and he saved Max second place this weekend
+
+  Topic 2  (n=1929, sentiment=+0.234)
+    Top terms: piastri, lando, norris, mclaren, wdc, max, win, red, year, championship, bull, red bull
+    Representative comments:
+      • [VADER +0.81]  The rest of this season will be a real test of Lando's performance under pressure - he knows he has a (slim but real) chance of winning the WDC if he maximises every weekend and doesn't put a foot wro
+      • [VADER +0.60]  Curious to see how Verstappen is going to make up places, if any. Monza is always harder to overtake, as DRS doesn’t matter much since the wing is already almost ‘open’.  I think in the front it will 
+      • [VADER +0.85]  We've seen huge oil slicks before sometimes at places like Monaco, but generally they've cleaned this stuff up super well this weekend. Stuff like fires etc. can damage the track more of course, but I
+
+  Topic 3  (n=743, sentiment=+0.112)
+    Top terms: let, want, hamilton, fight, win, didn, year, drive, need, fuck, monza, bottas
+    Representative comments:
+      • [VADER +0.26]  Gonna be a case of classic Monza DRS train if nothing crazy happens.   Fully expecting McLarens to drive into the distance, even if they botch the start again.
+      • [VADER +0.59]  We even got a Ferrari win at Monza this year man. This year is PEAK.
+      • [VADER +0.00]  Rookie debut and a well-regarded rookie next year making his FP debut. Plus it's Monza.
+
+  Topic 4  (n=708, sentiment=+0.233)
+    Top terms: oscar, lando, won, nico, doing, points, needs, races, charles, feel, seconds, come
+    Representative comments:
+      • [VADER +0.64]  Hears Italian anthem   *stares at Australian anthem, looks back at Italian anthem, looks back to Australian anthem*   This was the best we could do really?
+      • [VADER -0.32]  Oscar is toe to toe with lando on tracks he raced in F2 and other series. It’s the new tracks he still seems to struggle with for now
+      • [VADER +0.57]  How had Lando won 7 DOTDs? Realistically he’s bottled it closer to 7 times.
+
+===========================================================================
+2024-11-02  Brazil GP Sprint 2024
+Piastri asked to let Norris through. 'Not proud about it' quote.
+  Comments in window: 9,738
+  Unique authors:     5,211
+
+  Topic 0  (n=1506, sentiment=+0.032)
+    Top terms: penalty, max, lawson, start, does, time, doesn, driving, senna, stewards, stop, schumacher
+    Representative comments:
+      • [VADER +0.00]  I guess he doesn’t need to change his driving style does he?
+      • [VADER +0.18]  I was seriously impressed with Hamilton in 21 from p20 to p5 in that rocket of a merc but fark Max what a drive.
+      • [VADER +0.76]  I think 5-10s penalties are fine so that there are steps between "reprimand/warning" and "drive through penalty", but yeah they need to hand it out more.
+
+  Topic 1  (n=1420, sentiment=+0.098)
+    Top terms: years, absolutely, end, championship, max, media, sport, need, know, crofty, hate, world
+    Representative comments:
+      • [VADER +0.68]  ah yes formula 1. One week you are an irredeemable monster who's signature move is the "desperate lunge". The next week you are the greatest of all time.
+      • [VADER +0.44]  New record for longest leading the championship Overtook Michael at 900 or so days.
+      • [VADER +0.60]  AKA we’ll see how this race plays out then act accordingly to maximise championship drama
+
+  Topic 2  (n=1749, sentiment=+0.054)
+    Top terms: red, flag, bull, red flag, red bull, fia, vsc, getting, safety, yuki, long, time
+    Representative comments:
+      • [VADER +0.00]  You get a red flag.  You get a red flag.  You get a red flag.  You get a red flag.  You get a red flag.
+      • [VADER +0.54]  fly slap sense safe touch test mysterious pie dependent person   *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*
+      • [VADER -0.24]  Harsh on Ocon and Gasly.  Obviously Verstappen driver of the day as that was phenomenal but P2 and P3 in the Alpine deserves more than just being lumped in with 'others'.
+
+  Topic 3  (n=2477, sentiment=+0.167)
+    Top terms: max, lewis, track, lando, verstappen, said, say, wet, ve, luck, saying, isn
+    Representative comments:
+      • [VADER +0.00]  FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP
+      • [VADER +0.96]  Thw rain is thw great equalizer but let's be honest, Alonsos car was bouncing on every straight and losing about a second on every straight and Lewis was clearly struggling with his car, in a comforta
+      • [VADER +0.69]  Norris, ironically given his comments about Max and Lewis, is the true car merchant. Every time the balance gets close between him and the proper drivers, he loses.   Silverstone and this are the best
+
+  Topic 4  (n=2586, sentiment=+0.155)
+    Top terms: max, lando, norris, points, win, oscar, mclaren, perez, piastri, year, ferrari, wdc
+    Representative comments:
+      • [VADER +0.39]  bro i am sorry but you could see that before. lando is fast but he, in my opinion, is still not wdc material. this race showed it. piastri went off once, but other than that he would have finished ahe
+      • [VADER +0.84]  The better car argument has become so stale. They won both races where they were dominant, and in the other races they were fast but beatable, and Max continued to get good results and was right behin
+      • [VADER +0.10]  Charles is suicidal due to ferrari and doesn't gaf abt max's antics and will do the same to max in a splitsecond On other hand lando is a weak driver who is easy enough to push around as he wish
+
+===========================================================================
+2024-12-01  Qatar GP 2024
+Norris held behind Piastri in final stint.
+  Comments in window: 3,825
+  Unique authors:     2,644
+
+  Topic 0  (n=725, sentiment=+0.109)
+    Top terms: charles, doesn, george, russell, max, carlos, stewards, norris, did, need, rb, perez
+    Representative comments:
+      • [VADER +0.74]  Need Terry Crews to do more post race interviews in more races moving forward. Love his energy.
+      • [VADER +0.00]  Norris needed to be penalised obviously but they basically took him out to the riverbank and shot him Jesus Christ
+      • [VADER -0.23]  If those penalties are the appropriate standard, fine.  But what isn't ok is having a roulette wheel of "how do the stewards feel this weekend"
+
+  Topic 1  (n=761, sentiment=+0.047)
+    Top terms: yuki, track, know, red, red bull, bull, stewards, gt, time, fia, shit, fucking
+    Representative comments:
+      • [VADER -0.80]  This collision with Stroll is precisely why ~~Albon~~ Daniel went wide to the right back in Japan, and yet everybody blamed Alex and/or Ricciardo for the incident  Stroll cannot be trusted when you're
+      • [VADER -0.72]  The rule book for this sport needs to be thrown out and rewritten from scratch. The amount of penalties in this race was beyond ridiculous and makes the sport look bad.
+      • [VADER +0.98]  Zhou made my day what a king 👑🐉 (accidentally replied to a Gasly comment lmao but also a huge win for him, he’s one of my fav drivers so it’s great to see him become a midfield general like Hulkenberg
+
+  Topic 2  (n=984, sentiment=+0.047)
+    Top terms: max, penalty, year, leclerc, lando, verstappen, did, grid, place, getting, going, point
+    Representative comments:
+      • [VADER +0.77]  Another race highlighting the vast difference in homework and awareness between Max and Lando. Max is aware, Lando is not, and Max is also aware enough to highlight the shortcomings of Lando, judging 
+      • [VADER -0.93]  Wtf. You get a reprimand, you get a reprimand, you Max get a grid penalty and a penalty point!  This is bullshit. 
+      • [VADER +0.14]  How does it take so long?    Now he gets the Penalty when all cars are within 15 seconds prior to when it happened?    Just look at the telemetry and hand this out immediatly
+
+  Topic 3  (n=802, sentiment=-0.035)
+    Top terms: lewis, ferrari, time, want, penalty, ve, yellow, lawson, fuck, bottas, fia, mean
+    Representative comments:
+      • [VADER +0.53]  It's about time that besides the team principles and drivers doing press conferences, the FIA and stewards should face the media as well after the race to properly explain and defend their decisions. 
+      • [VADER -0.46]  BREAKING NEWS: 10 second penalty for Max for driving unnecessarily fast at the start and causing multiple crashes behind him
+      • [VADER +0.00]  YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN
+
+  Topic 4  (n=553, sentiment=+0.026)
+    Top terms: sainz, stop, pit, safety, hamilton, won, driving, joke, drive, penalty, line, didn
+    Representative comments:
+      • [VADER +0.40]  10 second stop/go for safety concerns, but they didn't send out a VSC to remove the mirror.  What was the plan before that Sauber exploded it? To have everyone lift in the middle of the straight for t
+      • [VADER +0.18]  All they had to do was drop a VSC for half a lap for a marshall to find a gap and grab the wing mirror. Now they have to wait for the cars to catch the safety car, get a whole team of marshalls to swe
+      • [VADER +0.84]  encouraging rain truck historical languid juggle party safe light sugar   *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*
+
+===========================================================================
+2025-03-16  Australian GP 2025
+Papaya rules applied race 1 of new season.
+  Comments in window: 6,260
+  Unique authors:     3,686
+
+  Topic 0  (n=1417, sentiment=+0.141)
+    Top terms: max, verstappen, time, looks, year, rain, feel, weekend, end, isn, drive, leclerc
+    Representative comments:
+      • [VADER -0.15]  Radar update with 4 hours until lights out:  Pre-frontal rain is pushing east and away from Melbourne, and so the heaviest of the rain is now over (upper circle w/ right arrows). Some heavy rain showe
+      • [VADER +0.51]  Checking the rain radar (google BOM Melbourne rain radar, direct linking doesn't work) the worst of the rain is gone, just very light showers possible. Think it will go ahead if the track can dry fast
+      • [VADER +0.65]  Sounds so stupid but I hope everyone stays safe in the race today. The idea of rookies + wet track makes my nerves go lmao. I’m always nervous that there’ll be another Grosjean situation, or worse.
+
+  Topic 1  (n=1454, sentiment=+0.156)
+    Top terms: ferrari, mclaren, lewis, did, max, pace, lando, let, piastri, williams, going, doing
+    Representative comments:
+      • [VADER -0.14]  I know it’s newsworthy and I know Sky have always been biased toward the British drivers, but if 90% of the coverage is going to be about Lewis and his move to Ferrari it’s going to get old real quick
+      • [VADER +0.00]  I gotta tell you man. If he’s only a few weeks old he’s not gonna understand much of what’s going on. Try explaining tyre strategy to him, you’ll see.
+      • [VADER +0.67]  My son was born some weeks ago so this is our first race together. Very much looking forward to this one. Hopefully it starts on time, otherwise I think he'll be fast asleep, just like me!
+
+  Topic 2  (n=1429, sentiment=+0.059)
+    Top terms: year, yuki, marko, williams, sainz, seat, rb, ve, said, new, fucking, fuck
+    Representative comments:
+      • [VADER +0.90]  i know many people were upset regarding yuki not getting promoted, including me -- but now I'm thinking it was for the best. This may be the best scenario for springboarding him into a new long term c
+      • [VADER -0.50]  Fuck it, I'm calling it  THIS YEAR™!  THE HYPE TRAIN ARE LEAVING THE STATION, ALL ABOARD!  CHOO FUCKING CHOO
+      • [VADER +0.64]  I love the new starting grid graphics with the view of the grid in the middle as we go through. A rare graphics W
+
+  Topic 3  (n=801, sentiment=+0.131)
+    Top terms: red, bull, red bull, hamilton, second, anthony, saying, having, driving, anthony hamilton, moment, class
+    Representative comments:
+      • [VADER +0.30]  If the FIA/stewards weren’t so spineless this would not only start on time but be a standing start. Conditions look fine. There’s a reason inters and wets exist.   But based on recent history neither 
+      • [VADER +0.42]  Such a nice gesture from Anthony Hamilton consoling Hadjar. The Hamilton family is a class act.
+      • [VADER +0.10]  Of everyone kicking about the paddock I'm glad it was Hamilton Sr who got there.  Jos would have kicked him in the balls and started screaming at him
+
+  Topic 4  (n=1159, sentiment=+0.097)
+    Top terms: lawson, yuki, albon, liam, hadjar, th, george, going, lewis, happy, russell, didn
+    Representative comments:
+      • [VADER +0.00]  I highly suggest watching the onboard cam of the Aston Martin Valkyrie running at the 12 hours of Sebring right now.  Still about 2 hours left, and it's night time.   #IT SOUNDS GREATTTT
+      • [VADER +0.71]  I pulled up ESPNEWS to watch the lead up to the race. It doesn't start for another 15 minutes and currently they're airing an Excel Championship
+      • [VADER +0.00]  Lawson getting butchered on social media by Checo and Ric stans
+
+===========================================================================
+2025-09-07  Italian GP 2025
+Major flashpoint. 'Slow pit stops are part of racing' quote.
+  Comments in window: 4,728
+  Unique authors:     3,076
+
+  Topic 0  (n=1325, sentiment=+0.094)
+    Top terms: points, championship, mclaren, lando, point, oscar, time, need, going, let, piastri, feel
+    Representative comments:
+      • [VADER +0.78]  I mean Lando literally said it was agreed upon in interview afterwards, so I don't think we can believe any one of them without having clear info from the team (which we won't get, because why should 
+      • [VADER -0.05]  Am I evil for hoping that the title battle goes down to Abu Dhabi just because of this? I want to see McLaren sweat as they need to either reinforce their precious Papaya rules or let them race.
+      • [VADER -0.22]  I hope not, and I say that as a Norris fan. The last thing we need is this dumb shit to come into play in Abu Dhabi.
+
+  Topic 1  (n=1092, sentiment=+0.004)
+    Top terms: oscar, lando, pit, stop, piastri, norris, slow, swap, didn, position, pit stop, year
+    Representative comments:
+      • [VADER +0.97]  First of all they had like 10 laps to pit Oscar safely before being under threat from Leclerc, but they chose to gamble for the late safety car.  Oscar was anyway still under no threat from Leclerc as
+      • [VADER -0.51]  Norris was offered first pit stop and declined. The lie that's being propagated that he let Oscar pit first to defend against Leclerc is ridiculous. He didn't want to pit first as a late safety car wo
+      • [VADER -0.08]  To be fair, I think there's a line defining a 'slow' pitstop, compared to a 'botched' pit stop.  If the pit stop is just 'slow' for no real tangible reason, then yes I agree with Oscar in this situati
+
+  Topic 2  (n=619, sentiment=+0.041)
+    Top terms: lando, pit, strategy, undercut, mclaren, different, piastri, mistake, crew, risk, ll, garage
+    Representative comments:
+      • [VADER -0.41]  I can sort of see both sides of the coin here. And weirdly enough, my thinking about this has flipped and turned right upside down since it happened. First I thought I was angry, but.. within a team -
+      • [VADER +0.86]  McL gave the better strategy (chose by most of the top 10) to their driver who was beefing with aston martin at the start and embraced it. what actually the difference between here (crew mistake at pi
+      • [VADER -0.93]  Why is everyone so hung up on Hungary 25. Different strategies are normal and no one thought 1 stop was fastest. Norris made a 1 stop work and now everyone thinks Piastri got screwed over. Piastri had
+
+  Topic 3  (n=823, sentiment=+0.099)
+    Top terms: max, verstappen, luck, mclaren, radio, ve, hamilton, pole, watching, title, tv, didn
+    Representative comments:
+      • [VADER -0.36]  Yeah this title fight is too nicey nicey.   Give me some Hamilton v Alonso, Hamilton v Rosberg Senna v Prost or even some Vettel v Webber in 2010 type heat.   That fire is what made for some epic seas
+      • [VADER -0.81]  Fan wars, attacking other users and blind hatred against teams, drivers and broadcasters will result in bans.  Disagreements are okay, but is possible to discuss the race without resorting to attacks,
+      • [VADER -0.81]  Fan wars, attacking other users and blind hatred against teams, drivers and broadcasters will result in bans.  Disagreements are okay, but is possible to discuss the race without resorting to attacks,
+
+  Topic 4  (n=869, sentiment=+0.055)
+    Top terms: wdc, mclaren, year, lewis, weekend, red, ferrari, look, won, happen, saying, love
+    Representative comments:
+      • [VADER -0.27]  Jep, I knew that would happen as soon as I saw the switch happen, lol. If it's not a race weekend F1 fans will just talk the newest hot topic in the sport to death for weeks.
+      • [VADER +0.37]  No, multiple drivers have already stated in various interviews that we only hear the juiciest parts of the radios and that they themselves say the most outrageous things in the heat of the moment but 
+      • [VADER -0.35]  And then what? Because there's no shortage of people who are willing to work in F1 for a terrible salary. They've got no bargaining power neither on their own nor as a collective. If you're working in
+
+===========================================================================
+2025-10-05  Singapore GP 2025
+Piastri radio disconnect. 'Oscar's villain arc' meme. 'Control the controllables'.
+  Comments in window: 2,299
+  Unique authors:     1,606
+
+  Topic 0  (n=706, sentiment=+0.062)
+    Top terms: lando, oscar, rules, papaya, contact, max, incident, papaya rules, said, wasn, fair, hit
+    Representative comments:
+      • [VADER +0.00]  If you watch Oscar’s onboard, he was very nearly put into the wall by Lando. I totally see his point, especially because of all the papaya rules thing.
+      • [VADER -0.69]  Agreed. Maybe he was affected by dirty air going around the turn but Lando was far enough up the road as to where you couldn’t justify an impeding penalty.
+      • [VADER -0.30]  He hit Max first, then tried to avoid bigger contact and accidently hit Oscar.
+
+  Topic 1  (n=371, sentiment=+0.110)
+    Top terms: piastri, norris, mclaren, did, races, time, max, lando, mean, gt, didn, say
+    Representative comments:
+      • [VADER -0.40]  As long as Norris not winning, coming in behind Norris means losing 21 points, and Piastri has 22.  Of course this also means that Max is coming in hot with -48, but Piastri has 63 there.
+      • [VADER +0.15]  Lando did a Max and more power to him. Being nice will not make you a world champion unless you have a stupidly fast car and a worse 2nd driver. He saw a gap and went for it as he should.
+      • [VADER -0.23]  The way they were acting about Hadjar letting Max and Lando through was ridiculous lol automatically assuming the worst and saying “wow.” Nothing fucking happened 😂
+
+  Topic 2  (n=386, sentiment=+0.194)
+    Top terms: win, max, mclaren, year, wdc, didn, teammate, verstappen, end, want, going, fans
+    Representative comments:
+      • [VADER +0.73]  Also, as a driver it's much easier to just go on a break and do GT or some other series for a year, and negotiate for the year after that. As a team you need good drivers the entire time.  It's not id
+      • [VADER +0.20]  If not Russell then who? McLaren boys are not standing out much, nether are Ferarri. It helps Russell's teammate is slow/new so we don't know what the car could do but still, steps ahead of most other
+      • [VADER +0.94]  his greatest quali lap is still Spa 2021, putting that dog of a williams up to p2 in torrential rain. just wish Max hadn't taken the pole there, it would have been the funniest way for Russell to win 
+
+  Topic 3  (n=486, sentiment=+0.001)
+    Top terms: stop, pit, strategy, mclaren, let, slow, singapore, position, hungary, monza, undercut, radio
+    Representative comments:
+      • [VADER +0.54]  Let's be honest, if he can keep ahead at the start and doesn't get undercut at the pit stop, he'll probably hold on. It's Singapore, he doesn't have to worry about overtakes.
+      • [VADER +0.76]  Most impressive Singapore pole I've seen since 2018, or maybe even since 2013. Honestly took my breath away when I saw his S1 time.
+      • [VADER -0.83]  Anyone who defends this is biased or just dumb. A race driver complaining that he got overtaken on the inside a little too agresively and wanting the position back for absolutely no reason
+
+  Topic 4  (n=350, sentiment=+0.089)
+    Top terms: championship, george, russell, come, alonso, won, ve, corner, toto, post, hamilton, max
+    Representative comments:
+      • [VADER -0.15]  I guess some people may find it weird that championship leader isn’t top-2 driver, especially considering Oscar really had only two major mistakes: Australia and Baku. On top of that, George is comple
+      • [VADER -0.24]  That first lap from Russell was just insane. I’m surprised he beat it in his next run. Crazy pace. Good to see Merc properly back in the fight here. Never thought I’d say that after 2020 but here we a
+      • [VADER -0.74]  Cameraman busy zooming at the GFs. Absolutely criminal that I wake up to watch this at 5am, and the TV director can't arsed to show Hamilton charge through the pack then battle with Alonso to the fini
+
+===========================================================================
+2025-10-18  US GP Sprint 2025 (COTA)
+Norris-Piastri collision. 'Papaya rules are finally over' fan response.
+  Comments in window: 5,167
+  Unique authors:     2,960
+
+  Topic 0  (n=1611, sentiment=+0.127)
+    Top terms: lando, mclaren, max, piastri, norris, time, year, oscar, wins, leclerc, charles, didn
+    Representative comments:
+      • [VADER -0.75]  When Verstappen wins the title, future generations will not believe the stories of how badly Piastri and Norris are choking this.   They were cruising. But since Monza it's just been a series of incre
+      • [VADER -0.08]  Every time Max gets mad at someone doing the exact same thing he’s known for I crack up 😂
+      • [VADER +0.47]  Did you get a mclaren double DNF?   Yes  What did it cost?   Hulkenpodium
+
+  Topic 1  (n=793, sentiment=+0.077)
+    Top terms: max, getting, verstappen, track, weekend, russell, does, george, having, sprint, ferrari, tv
+    Representative comments:
+      • [VADER +0.74]  RB - “Great drive, Max way to set the tone this weekend.”  Max - “The rear of this car is sh-“  *click*  RB - “He says well done guys, great work on the car.”
+      • [VADER +0.48]  Could understand the "it was racing" for Max who was taking avoiding action....but Russell come on man lol, after the historical pearl clutching thats hilarious
+      • [VADER +0.00]  Twice in recent years drivers have tried a switchback at COTA on lap 1 at turn 1 and ended up being wiped out.
+
+  Topic 2  (n=750, sentiment=-0.018)
+    Top terms: piastri, th, doesn, yuki, shit, norris, zak, fuck, fault, pit, end, grid
+    Representative comments:
+      • [VADER +0.00]  Zak Brown continues to be the biggest piece of trash on the grid. Imagine that.
+      • [VADER +0.00]  Zak before every session. Zak during every session. Zak after every session.   End me.
+      • [VADER -0.36]  Holy shit, this has been the chaos that I’ve desired for ages. Excellent
+
+  Topic 3  (n=971, sentiment=+0.140)
+    Top terms: max, oscar, win, wdc, fucking, start, going, mclaren, championship, know, let, tomorrow
+    Representative comments:
+      • [VADER +0.72]  Oscar drove as much into Nico as Nico drove into Oscar. L take from Zac for sure. You cant just turn this sharp at the start and expect not a single car to be there.
+      • [VADER +0.89]  Please God let Max win the WDC, it would be so fucking funny 
+      • [VADER -0.81]  10 seconds? That’s crazy. Its impossible to know what is going to be punished these days, and if it is punished, how harshly. I don’t get it anymore.
+
+  Topic 4  (n=1042, sentiment=+0.163)
+    Top terms: max, points, ferrari, races, red, red bull, bull, fight, du, winning, need, second
+    Representative comments:
+      • [VADER +0.45]  Red Bull so good we got max complaining about issues despite pulling away from the field.     Takes me back to 2023 🥹
+      • [VADER +0.42]  lol RBR 7 points behind Ferrari in the WCC despite virtually 100% of those points have come from Max  Just Ferrari things
+      • [VADER +0.00]     Roses are red  Violets are blue  Ferrari is trash  Du du du du.
+
+===========================================================================
+2025-11-30  Qatar GP 2025
+McLaren strategy failure. Title fight goes to final race.
+  Comments in window: 9,557
+  Unique authors:     5,270
+
+  Topic 0  (n=1913, sentiment=+0.061)
+    Top terms: max, wdc, mclaren, time, points, lando, know, title, shit, piastri, turn, isn
+    Representative comments:
+      • [VADER +0.81]  People acting like P3 is bad for Lando and like Max just won the title...  I miss 10 years ago when there wasnt this much brain drain in this sport. P3 is amazing for Lando today
+      • [VADER -0.36]  He sucks at low grip tracks. And it will be a real liability to his career if he doesn’t improve that.
+      • [VADER +0.52]  Rightly so. McLaren acting like they are a backmarker fighting for rare lucky points. Completely clueless strategy wise.
+
+  Topic 1  (n=2132, sentiment=+0.136)
+    Top terms: lando, max, win, oscar, track, sprint, mclaren, did, championship, let, end, didn
+    Representative comments:
+      • [VADER +0.84]  So to recap, as a result of McLaren strategy:  Lando could have won today if they pitted him under the safety car and not Oscar, winning Lando the championship.   Oscar could have won today if they pi
+      • [VADER +0.96]  2023: Piastri Sprint win, Verstappen GP win.  2024: Piastri Sprint win, Verstappen GP win.  2025: Piastri Sprint win, ........
+      • [VADER +0.21]  Piastri coming in on 25 would have definitely brought Lando out in the train. OP ain't helping himself one bit by following "papaya" rules
+
+  Topic 2  (n=1677, sentiment=-0.011)
+    Top terms: lando, mclaren, oscar, say, does, pit, said, fucking, getting, lost, ahead, feel
+    Representative comments:
+      • [VADER +0.73]  “Your pace was incredible” that’s what McLaren had to say to Oscar after he finishes 2nd being the fastest car this whole weekend!  Absolutely hilarious 😂
+      • [VADER +0.30]  "They have lost all their flexibility for the reminder of the race"  They also have a full free pit stop
+      • [VADER +0.57]  “They’ve lost all their flexibility”   They got a free pit stop lmao
+
+  Topic 3  (n=2168, sentiment=+0.040)
+    Top terms: norris, year, ferrari, max, red, bull, red bull, kimi, wins, piastri, lewis, yuki
+    Representative comments:
+      • [VADER +0.58]  He'll just let Max dive into T1, brake to just let him pass safely and cruise into third. Maybe do a "safe" overtake during the race, but going safe with Max in THOSE circumstances is probably not saf
+      • [VADER -0.74]  Since there is some confusion about this: Pirelli has restricted the teams to **25 laps per stint** for the Qatar GP.  * Piastri and Norris **must pit BY** Lap 25 * Everyone who pitted on Lap 7 **must
+      • [VADER -0.16]  This is fairly well known.  Ferrari had their own DSQ for ride height earlier this season and are a meme for their amount of LICO which they have to do because their ride height is so low
+
+  Topic 4  (n=1667, sentiment=+0.161)
+    Top terms: lando, oscar, max, norris, needs, need, chance, abu, dhabi, abu dhabi, tomorrow, going
+    Representative comments:
+      • [VADER -0.53]  Piastri should have ignored orders to come in on lap 24 and waited until 25, forcing Lando to double stack and making him lose 5 spots. Missed opportunity.
+      • [VADER +0.75]  This is one of those races where no amount of trying to will something to happen is gonna work, hope Piastri's strat can help him.  Norris needs the luck more it seems.
+      • [VADER -0.30]  It doesn’t need to be as catastrophic as a DNF. Norris needs to come P5+ in one of the two races for Oscar to have a legit chance.
+
+===========================================================================
+2025-12-07  Abu Dhabi GP 2025
+Brown openly endorses team orders. Norris wins title. Constructors back-to-back.
+  Comments in window: 7,161
+  Unique authors:     4,712
+
+  Topic 0  (n=1614, sentiment=+0.088)
+    Top terms: norris, piastri, max, pit, need, know, going, mclaren, track, ve, hate, didn
+    Representative comments:
+      • [VADER -0.74]  Since there is some confusion about this: Pirelli has restricted the teams to **25 laps per stint** for the Qatar GP.  * Piastri and Norris **must pit BY** Lap 25 * Everyone who pitted on Lap 7 **must
+      • [VADER +0.55]  Yuki is also going to do a long stint at the beginning in hopes of slowing down Norris after he pits  there really is no scenario where Lando can just cruise home safely in P3
+      • [VADER +0.75]  This is one of those races where no amount of trying to will something to happen is gonna work, hope Piastri's strat can help him.  Norris needs the luck more it seems.
+
+  Topic 1  (n=1201, sentiment=+0.048)
+    Top terms: year, shit, lewis, media, lost, years, comment, time, different, fucking, ferrari, grid
+    Representative comments:
+      • [VADER +0.00]  Carlos, twice on the podium for Williams, none for Lewis Hamilton at Ferrari, ....  I am the frog with the tea meme, have you seen the frog with the tea?
+      • [VADER +0.48]  Ferrari paying more 6 times more than what they had to pay Sainz only to watch Sainz take podium again in a Williams. LOL
+      • [VADER +0.80]  I find it rich that RB manufactured a fuss out of this while they have been repeatedly involved with funny business between their 2 teams over the years. They are the last team on the grid that should
+
+  Topic 2  (n=909, sentiment=+0.040)
+    Top terms: red, bull, red bull, moment, abu, dhabi, abu dhabi, yuki, come, comments, honestly, fan
+    Representative comments:
+      • [VADER -0.78]  Doesn’t even acknowledge it was their team members that made the comments. Just that there were comments and they regret that’s it caused a problem.  It’s a political statement with no real apology or
+      • [VADER -0.48]  Marko making implications after the race is significantly worse. What GP said was in the heat of the moment and FOM selectively broadcasting it fanned the flames.
+      • [VADER -0.30]  I'd have liked them to at least mention GP and especially Marko in that apology statement to hold them accountable. They are the main persons who caused the abuse.
+
+  Topic 3  (n=2298, sentiment=+0.236)
+    Top terms: lando, max, oscar, win, mclaren, championship, points, won, wdc, doesn, piastri, champion
+    Representative comments:
+      • [VADER +0.84]  So to recap, as a result of McLaren strategy:  Lando could have won today if they pitted him under the safety car and not Oscar, winning Lando the championship.   Oscar could have won today if they pi
+      • [VADER +0.37]  If the top 3 are as we expect next week, realistically it doesn’t really matter if Lando needs 2nd or 3rd. Surely Piastri would have to disobey the biggest team order he’ll ever get and let LN past if
+      • [VADER +0.10]  it pisses me off because lando is and has been bothered by max, mclaren as a team very clearly are bothered by max but OSCAR was chilling. he was in second. he should’ve won this race. but because his
+
+  Topic 4  (n=1139, sentiment=+0.016)
+    Top terms: kimi, lando, let, did, didn, feel, getting, mistake, said, pass, time, max
+    Representative comments:
+      • [VADER -0.83]  Oscar was having a good run only for McLaren to ruin his race. That monza swap was a ridiculous decision and now he’s fucked going into AD. If he’s got that dawg in him, he should just take himself an
+      • [VADER -0.40]  The live footage didnt show it at the time. I think just got the part where lando overtook kimi. We thought initially kimi had a problem. Then later on they got to replay what happend.
+      • [VADER +0.00]  “Oscar, it’s last lap. Let Lando pass por da champeeionsheep. Let Lando pass por da champeeionsheep”

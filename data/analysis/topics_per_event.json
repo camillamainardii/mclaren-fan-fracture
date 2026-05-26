@@ -1,0 +1,2062 @@
+[
+  {
+    "event": {
+      "date": "2024-07-21",
+      "race": "Hungarian GP 2024",
+      "note": "Patient zero. Norris-Piastri swap controversy. Fanbase split begins."
+    },
+    "n_comments": 2760,
+    "n_unique_authors": 2007,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "max",
+          "perez",
+          "verstappen",
+          "lewis",
+          "pole",
+          "fucking",
+          "year",
+          "leclerc",
+          "shit",
+          "didn",
+          "win",
+          "crofty"
+        ],
+        "n_dominant_docs": 563,
+        "mean_sentiment": 0.12857300177619893,
+        "top_comments": [
+          {
+            "comment_id": "lf6v4jy",
+            "score": 0.9270237393562824,
+            "body": "People forget this is Max\u2019s home race too. He loves this track. He will not make it easy tomorrow. Jos hates Belgium because Max\u2019s mom is Belgian and Max was born and raised there, but this is Max\u2019s favorite track. \ud83e\udd37\u200d\u2642\ufe0f",
+            "vader_compound": 0.5018
+          },
+          {
+            "comment_id": "le8e0zt",
+            "score": 0.926158983458548,
+            "body": "My partner had to miss this race. He\u2019s going to have the result spoiled tomorrow and be so happy our favourite got his first win.\n\nThen he\u2019ll watch the race.",
+            "vader_compound": 0.8377
+          },
+          {
+            "comment_id": "le89ncj",
+            "score": 0.9199733288406787,
+            "body": "Max: \n\n\nCrofty: MAX VERSTAPPEN STAYED UP LATE LAST NIGHT",
+            "vader_compound": 0.0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "piastri",
+          "lando",
+          "mclaren",
+          "doesn",
+          "feel",
+          "red",
+          "ferrari",
+          "red bull",
+          "bull",
+          "years",
+          "doing",
+          "won"
+        ],
+        "n_dominant_docs": 471,
+        "mean_sentiment": 0.10788789808917199,
+        "top_comments": [
+          {
+            "comment_id": "le8hd0t",
+            "score": 0.9630168742728041,
+            "body": "Well that\u2019s not entirely true.\n\nPiastri was definitely the quicker car until the last pit stops. \n\nAnd it\u2019s known Lando was destroying his tyres to a greater degree than Piastri was in order to manufacture the gap. \n\nSo, he may have been quicker in that last stint, maybe, but it\u2019s incredibly hard to",
+            "vader_compound": -0.3102
+          },
+          {
+            "comment_id": "le96r16",
+            "score": 0.9331967679017545,
+            "body": "He's been showing his true colors ever since Red Bull stopped dominating this season. My friends were surprised but I'm just like, I told you he's still a child. Super immature",
+            "vader_compound": 0.899
+          },
+          {
+            "comment_id": "le909n7",
+            "score": 0.932808233219174,
+            "body": "Lando is showing to be so unprofessional. Sad to see mclaren with the fastest car on the track making such a scene. \n\nPd: Congrats to Piastri, amazing racing and attitude.",
+            "vader_compound": -0.1077
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "lando",
+          "mclaren",
+          "oscar",
+          "win",
+          "norris",
+          "lewis",
+          "piastri",
+          "fuck",
+          "ve",
+          "let",
+          "position",
+          "did"
+        ],
+        "n_dominant_docs": 955,
+        "mean_sentiment": 0.07899759162303666,
+        "top_comments": [
+          {
+            "comment_id": "le8thsi",
+            "score": 0.9735726053462174,
+            "body": "They definitely fucked up a bit but I don\u2019t think they expected Lando to go a bit rogue. They were fully expecting him to be a team player and give the lead back quickly so tried to show him some team favor and prioritize protecting him from Hamilton instead of having to protect Oscar from his own t",
+            "vader_compound": 0.8735
+          },
+          {
+            "comment_id": "le8ihir",
+            "score": 0.9649078748220243,
+            "body": "I agree that it was a lot of unnecessary back and forth on the radio because Norris was being stubborn, but the situation would not have happened in the first place if they pitted Piastri first as they should have.\n\nHamilton was a long way back and clearly did not have the pace to keep up with them ",
+            "vader_compound": -0.2846
+          },
+          {
+            "comment_id": "le8cy53",
+            "score": 0.9527323693976226,
+            "body": "Imagine if Lando loses the wdc with like 2 points. Nevertheless, can\u2019t blame Oscar or Lando. The team fucked it. They should\u2019ve pitted Oscar first and let them battle it out",
+            "vader_compound": -0.8481
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "grid",
+          "start",
+          "penalty",
+          "yuki",
+          "starting",
+          "races",
+          "penalties",
+          "place",
+          "new",
+          "starts",
+          "work",
+          "places"
+        ],
+        "n_dominant_docs": 372,
+        "mean_sentiment": -0.03177634408602151,
+        "top_comments": [
+          {
+            "comment_id": "lf1ft9i",
+            "score": 0.9634779098997692,
+            "body": "This only applies to \"Classified drivers who have received **15 or fewer** cumulative grid place penalties\". Otherwise (as in this case) the following holds:\n\n&gt;42.3 d) Classified drivers who have accrued more than 15 cumulative grid position penalties, or who have been penalised to start at the b",
+            "vader_compound": 0.34
+          },
+          {
+            "comment_id": "lf1rg6g",
+            "score": 0.9617472904601467,
+            "body": "In case anybody is struggling to interpret that clause, it means that drivers with a \"back of the grid\" penalty will start behind all drivers with penalties of 15 places or less, even if those penalties would have put said drivers at the back of the grid.\n\nSo only another driver with a back of the g",
+            "vader_compound": -0.8316
+          },
+          {
+            "comment_id": "lf252t9",
+            "score": 0.9570317520424929,
+            "body": "It seems like the obvious answer is to roll grid penalties to the following race. But the number of grid places needs to be correctly matched with the part being replaced. For instance the ICE and turbo both carrying a 10 place penalty does not make sense. I could see 5 places for the ICEU and 3 for",
+            "vader_compound": -0.4215
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "checo",
+          "going",
+          "time",
+          "strategy",
+          "end",
+          "vcarb",
+          "does",
+          "wouldn",
+          "start",
+          "mean",
+          "getting",
+          "isn"
+        ],
+        "n_dominant_docs": 399,
+        "mean_sentiment": 0.025699498746867163,
+        "top_comments": [
+          {
+            "comment_id": "lf1td6o",
+            "score": 0.9631118436033684,
+            "body": "I mean it's certainly a disadvantage, but the benefits offset that advantage to the point that it isn't a major difference imo.\n\nCons - no chance to make up places in the first few corners, have to use your tyres a bit to catch up\n\nPros - no risk of getting damaged or DNF'd over a fight for P19 in t",
+            "vader_compound": -0.2117
+          },
+          {
+            "comment_id": "lf1rr1s",
+            "score": 0.9553319704913492,
+            "body": "It honestly wouldn't make much of a difference. P20 to a pit lane start is a marginal difference given that you get to run a few laps in clean air as you catch up, and it also reduces the risk of getting caught up in turn 1 carnage.",
+            "vader_compound": 0.5574
+          },
+          {
+            "comment_id": "le3edt3",
+            "score": 0.9264824301542879,
+            "body": "No fresh tyres. Everyone sitting in pit lane for minutes on end.\n\nHe said there was no way he'd improve. And he was right, because no one did",
+            "vader_compound": -0.3532
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2024-09-01",
+      "race": "Italian GP 2024",
+      "note": "Piastri lap-1 overtake on Norris. 'Papaya rules' enters public discourse."
+    },
+    "n_comments": 5299,
+    "n_unique_authors": 2891,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "did",
+          "lando",
+          "know",
+          "shit",
+          "isn",
+          "saying",
+          "papaya",
+          "kimi",
+          "rules",
+          "say",
+          "teammate",
+          "fucking"
+        ],
+        "n_dominant_docs": 898,
+        "mean_sentiment": 0.09414487750556794,
+        "top_comments": [
+          {
+            "comment_id": "lkyzav1",
+            "score": 0.9527099216669765,
+            "body": "Someone please help me, in how many hours does the race start? It\u2019s 1pm Florence time now. I saw a board saying 2pm and now I see it saying 3pm. I\u2019m abroad right now and can\u2019t figure it out bc my phone keeps showing different times",
+            "vader_compound": 0.6124
+          },
+          {
+            "comment_id": "llc6ao7",
+            "score": 0.9455409107538302,
+            "body": "Lando! Lando! Lando... Lando Norris is the greatest... The almighty Lando! Simply lovely, huh?",
+            "vader_compound": 0.8713
+          },
+          {
+            "comment_id": "lkzti78",
+            "score": 0.9109136421101478,
+            "body": "Italian National Anthem is just a top 5 anthem in the world isn\u2019t it?",
+            "vader_compound": 0.2023
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "mclaren",
+          "charles",
+          "ferrari",
+          "leclerc",
+          "second",
+          "strategy",
+          "stop",
+          "didn",
+          "tires",
+          "tyres",
+          "pit",
+          "lost"
+        ],
+        "n_dominant_docs": 1021,
+        "mean_sentiment": 0.16415935357492653,
+        "top_comments": [
+          {
+            "comment_id": "ljv1g8b",
+            "score": 0.9270649362123536,
+            "body": "Leclerc defending a faster car the entire second stint on way older tires in a way slower car. \ud83d\udc51",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "ljv03ib",
+            "score": 0.9198595985521671,
+            "body": "Charles Leclerc, Charles LECLERC, CHARLES LECLERC",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "ljv1ngp",
+            "score": 0.9189536221036275,
+            "body": "Leclerc deserved DoTD and he saved Max second place this weekend",
+            "vader_compound": 0.4215
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "piastri",
+          "lando",
+          "norris",
+          "mclaren",
+          "wdc",
+          "max",
+          "win",
+          "red",
+          "year",
+          "championship",
+          "bull",
+          "red bull"
+        ],
+        "n_dominant_docs": 1929,
+        "mean_sentiment": 0.23447060653188181,
+        "top_comments": [
+          {
+            "comment_id": "lkz7tos",
+            "score": 0.9788516937189324,
+            "body": "The rest of this season will be a real test of Lando's performance under pressure - he knows he has a (slim but real) chance of winning the WDC if he maximises every weekend and doesn't put a foot wrong. This is the first time in his career that the stakes have been this high. Will he be able to per",
+            "vader_compound": 0.8074
+          },
+          {
+            "comment_id": "lkyoed6",
+            "score": 0.9596962019724206,
+            "body": "Curious to see how Verstappen is going to make up places, if any. Monza is always harder to overtake, as DRS doesn\u2019t matter much since the wing is already almost \u2018open\u2019. \nI think in the front it will be an easy 1-2 for McLaren, assuming they don\u2019t screw up their start too much (which is a big assump",
+            "vader_compound": 0.5994
+          },
+          {
+            "comment_id": "lkyxhvm",
+            "score": 0.9554086760635601,
+            "body": "We've seen huge oil slicks before sometimes at places like Monaco, but generally they've cleaned this stuff up super well this weekend. Stuff like fires etc. can damage the track more of course, but I don't expect too much of an effect from this race.",
+            "vader_compound": 0.8537
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "let",
+          "want",
+          "hamilton",
+          "fight",
+          "win",
+          "didn",
+          "year",
+          "drive",
+          "need",
+          "fuck",
+          "monza",
+          "bottas"
+        ],
+        "n_dominant_docs": 743,
+        "mean_sentiment": 0.11163189771197846,
+        "top_comments": [
+          {
+            "comment_id": "lkyoxwd",
+            "score": 0.9444376450264411,
+            "body": "Gonna be a case of classic Monza DRS train if nothing crazy happens.\n\n\nFully expecting McLarens to drive into the distance, even if they botch the start again.",
+            "vader_compound": 0.2584
+          },
+          {
+            "comment_id": "lkzql7j",
+            "score": 0.9192124141935588,
+            "body": "We even got a Ferrari win at Monza this year man. This year is PEAK.",
+            "vader_compound": 0.5859
+          },
+          {
+            "comment_id": "lknmp1x",
+            "score": 0.9186121849547997,
+            "body": "Rookie debut and a well-regarded rookie next year making his FP debut. Plus it's Monza.",
+            "vader_compound": 0.0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "oscar",
+          "lando",
+          "won",
+          "nico",
+          "doing",
+          "points",
+          "needs",
+          "races",
+          "charles",
+          "feel",
+          "seconds",
+          "come"
+        ],
+        "n_dominant_docs": 708,
+        "mean_sentiment": 0.23291398305084746,
+        "top_comments": [
+          {
+            "comment_id": "lkzbj0l",
+            "score": 0.9264878475111021,
+            "body": "Hears Italian anthem  \n*stares at Australian anthem, looks back at Italian anthem, looks back to Australian anthem*  \nThis was the best we could do really?",
+            "vader_compound": 0.6369
+          },
+          {
+            "comment_id": "llgbfoe",
+            "score": 0.909941335486487,
+            "body": "Oscar is toe to toe with lando on tracks he raced in F2 and other series. It\u2019s the new tracks he still seems to struggle with for now",
+            "vader_compound": -0.3182
+          },
+          {
+            "comment_id": "lkzphlw",
+            "score": 0.8996000916116141,
+            "body": "How had Lando won 7 DOTDs? Realistically he\u2019s bottled it closer to 7 times.",
+            "vader_compound": 0.5719
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2024-11-02",
+      "race": "Brazil GP Sprint 2024",
+      "note": "Piastri asked to let Norris through. 'Not proud about it' quote."
+    },
+    "n_comments": 9738,
+    "n_unique_authors": 5211,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "penalty",
+          "max",
+          "lawson",
+          "start",
+          "does",
+          "time",
+          "doesn",
+          "driving",
+          "senna",
+          "stewards",
+          "stop",
+          "schumacher"
+        ],
+        "n_dominant_docs": 1506,
+        "mean_sentiment": 0.032177490039840634,
+        "top_comments": [
+          {
+            "comment_id": "lv7qgpu",
+            "score": 0.9197777218493483,
+            "body": "I guess he doesn\u2019t need to change his driving style does he?",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "lv8j9df",
+            "score": 0.9103016507395787,
+            "body": "I was seriously impressed with Hamilton in 21 from p20 to p5 in that rocket of a merc but fark Max what a drive.",
+            "vader_compound": 0.1779
+          },
+          {
+            "comment_id": "lu7p9uj",
+            "score": 0.8995774486201604,
+            "body": "I think 5-10s penalties are fine so that there are steps between \"reprimand/warning\" and \"drive through penalty\", but yeah they need to hand it out more.",
+            "vader_compound": 0.7579
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "years",
+          "absolutely",
+          "end",
+          "championship",
+          "max",
+          "media",
+          "sport",
+          "need",
+          "know",
+          "crofty",
+          "hate",
+          "world"
+        ],
+        "n_dominant_docs": 1420,
+        "mean_sentiment": 0.0980788028169014,
+        "top_comments": [
+          {
+            "comment_id": "lvhl10q",
+            "score": 0.9105560556096722,
+            "body": "ah yes formula 1. One week you are an irredeemable monster who's signature move is the \"desperate lunge\". The next week you are the greatest of all time.",
+            "vader_compound": 0.6808
+          },
+          {
+            "comment_id": "lv8y0kv",
+            "score": 0.9104516772707294,
+            "body": "New record for longest leading the championship Overtook Michael at 900 or so days.",
+            "vader_compound": 0.4404
+          },
+          {
+            "comment_id": "lv738ew",
+            "score": 0.899803437811474,
+            "body": "AKA we\u2019ll see how this race plays out then act accordingly to maximise championship drama",
+            "vader_compound": 0.5994
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "red",
+          "flag",
+          "bull",
+          "red flag",
+          "red bull",
+          "fia",
+          "vsc",
+          "getting",
+          "safety",
+          "yuki",
+          "long",
+          "time"
+        ],
+        "n_dominant_docs": 1749,
+        "mean_sentiment": 0.054140080045740425,
+        "top_comments": [
+          {
+            "comment_id": "lv5wqzd",
+            "score": 0.9599998932334577,
+            "body": "You get a red flag.\n\nYou get a red flag.\n\nYou get a red flag.\n\nYou get a red flag.\n\nYou get a red flag.",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "lv7rocm",
+            "score": 0.9528095988593817,
+            "body": "fly slap sense safe touch test mysterious pie dependent person\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",
+            "vader_compound": 0.5423
+          },
+          {
+            "comment_id": "lv7viyt",
+            "score": 0.9253756661096978,
+            "body": "Harsh on Ocon and Gasly.\n\nObviously Verstappen driver of the day as that was phenomenal but P2 and P3 in the Alpine deserves more than just being lumped in with 'others'.",
+            "vader_compound": -0.2382
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "max",
+          "lewis",
+          "track",
+          "lando",
+          "verstappen",
+          "said",
+          "say",
+          "wet",
+          "ve",
+          "luck",
+          "saying",
+          "isn"
+        ],
+        "n_dominant_docs": 2477,
+        "mean_sentiment": 0.16676903512313282,
+        "top_comments": [
+          {
+            "comment_id": "lv7not8",
+            "score": 0.9876312029394042,
+            "body": "FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FASTEST LAP MAX VERSTAPPEN FAS",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "lv7zrn3",
+            "score": 0.9616974838053123,
+            "body": "Thw rain is thw great equalizer but let's be honest, Alonsos car was bouncing on every straight and losing about a second on every straight and Lewis was clearly struggling with his car, in a comfortable car Alonso has shown drives like Zandvoort last year in the rain and Lewis has demonstrated how ",
+            "vader_compound": 0.9623
+          },
+          {
+            "comment_id": "lv7qivl",
+            "score": 0.9494684261496217,
+            "body": "Norris, ironically given his comments about Max and Lewis, is the true car merchant. Every time the balance gets close between him and the proper drivers, he loses. \n\nSilverstone and this are the best examples.",
+            "vader_compound": 0.6908
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "max",
+          "lando",
+          "norris",
+          "points",
+          "win",
+          "oscar",
+          "mclaren",
+          "perez",
+          "piastri",
+          "year",
+          "ferrari",
+          "wdc"
+        ],
+        "n_dominant_docs": 2586,
+        "mean_sentiment": 0.1550924207269915,
+        "top_comments": [
+          {
+            "comment_id": "lv7rgtk",
+            "score": 0.9739917353658599,
+            "body": "bro i am sorry but you could see that before. lando is fast but he, in my opinion, is still not wdc material. this race showed it. piastri went off once, but other than that he would have finished ahead of norris if they didnt give team orders. he drove miles better than lando\n\n  \npiastri is way coo",
+            "vader_compound": 0.3919
+          },
+          {
+            "comment_id": "lvbhzu9",
+            "score": 0.9633310295380728,
+            "body": "The better car argument has become so stale. They won both races where they were dominant, and in the other races they were fast but beatable, and Max continued to get good results and was right behind. They also had competition from the improved Mercedes and Ferrari. At no point has this McLaren be",
+            "vader_compound": 0.8352
+          },
+          {
+            "comment_id": "lv7t658",
+            "score": 0.9380988710224222,
+            "body": "Charles is suicidal due to ferrari and doesn't gaf abt max's antics and will do the same to max in a splitsecond\nOn other hand lando is a weak driver who is easy enough to push around as he wish",
+            "vader_compound": 0.1027
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2024-12-01",
+      "race": "Qatar GP 2024",
+      "note": "Norris held behind Piastri in final stint."
+    },
+    "n_comments": 3825,
+    "n_unique_authors": 2644,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "charles",
+          "doesn",
+          "george",
+          "russell",
+          "max",
+          "carlos",
+          "stewards",
+          "norris",
+          "did",
+          "need",
+          "rb",
+          "perez"
+        ],
+        "n_dominant_docs": 725,
+        "mean_sentiment": 0.10913903448275862,
+        "top_comments": [
+          {
+            "comment_id": "lypk2ol",
+            "score": 0.9330955478317847,
+            "body": "Need Terry Crews to do more post race interviews in more races moving forward. Love his energy.",
+            "vader_compound": 0.743
+          },
+          {
+            "comment_id": "lzwba3h",
+            "score": 0.9194239329869828,
+            "body": "Norris needed to be penalised obviously but they basically took him out to the riverbank and shot him Jesus Christ",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "lzwemxx",
+            "score": 0.9099567334644056,
+            "body": "If those penalties are the appropriate standard, fine.\n\nBut what isn't ok is having a roulette wheel of \"how do the stewards feel this weekend\"",
+            "vader_compound": -0.234
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "yuki",
+          "track",
+          "know",
+          "red",
+          "red bull",
+          "bull",
+          "stewards",
+          "gt",
+          "time",
+          "fia",
+          "shit",
+          "fucking"
+        ],
+        "n_dominant_docs": 761,
+        "mean_sentiment": 0.046799868593955324,
+        "top_comments": [
+          {
+            "comment_id": "lzvxvpm",
+            "score": 0.9382298384544242,
+            "body": "This collision with Stroll is precisely why ~~Albon~~ Daniel went wide to the right back in Japan, and yet everybody blamed Alex and/or Ricciardo for the incident\n\nStroll cannot be trusted when you're next to him on track. Ever.",
+            "vader_compound": -0.7994
+          },
+          {
+            "comment_id": "lzwes0i",
+            "score": 0.9265600746217915,
+            "body": "The rule book for this sport needs to be thrown out and rewritten from scratch. The amount of penalties in this race was beyond ridiculous and makes the sport look bad.",
+            "vader_compound": -0.7184
+          },
+          {
+            "comment_id": "lzwjabp",
+            "score": 0.9264817690011623,
+            "body": "Zhou made my day what a king \ud83d\udc51\ud83d\udc09 (accidentally replied to a Gasly comment lmao but also a huge win for him, he\u2019s one of my fav drivers so it\u2019s great to see him become a midfield general like Hulkenberg)",
+            "vader_compound": 0.9756
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "max",
+          "penalty",
+          "year",
+          "leclerc",
+          "lando",
+          "verstappen",
+          "did",
+          "grid",
+          "place",
+          "getting",
+          "going",
+          "point"
+        ],
+        "n_dominant_docs": 984,
+        "mean_sentiment": 0.04658882113821137,
+        "top_comments": [
+          {
+            "comment_id": "lzwf8i2",
+            "score": 0.9597496127563307,
+            "body": "Another race highlighting the vast difference in homework and awareness between Max and Lando. Max is aware, Lando is not, and Max is also aware enough to highlight the shortcomings of Lando, judging the closing McLaren and correctly knowing Lando didn\u2019t follow the rules. \n\nLando just hasn\u2019t got it.",
+            "vader_compound": 0.765
+          },
+          {
+            "comment_id": "lzs2s08",
+            "score": 0.933199890547793,
+            "body": "Wtf. You get a reprimand, you get a reprimand, you Max get a grid penalty and a penalty point!\u00a0\nThis is bullshit.\u00a0",
+            "vader_compound": -0.9312
+          },
+          {
+            "comment_id": "lzwakub",
+            "score": 0.9320623021437976,
+            "body": "How does it take so long?   \nNow he gets the Penalty when all cars are within 15 seconds prior to when it happened?   \nJust look at the telemetry and hand this out immediatly",
+            "vader_compound": 0.1431
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "lewis",
+          "ferrari",
+          "time",
+          "want",
+          "penalty",
+          "ve",
+          "yellow",
+          "lawson",
+          "fuck",
+          "bottas",
+          "fia",
+          "mean"
+        ],
+        "n_dominant_docs": 802,
+        "mean_sentiment": -0.034783915211970086,
+        "top_comments": [
+          {
+            "comment_id": "lzwkl7a",
+            "score": 0.9458389659072182,
+            "body": "It's about time that besides the team principles and drivers doing press conferences, the FIA and stewards should face the media as well after the race to properly explain and defend their decisions. Genuinely curious to hear their mental gymnastics trying to justify it all.",
+            "vader_compound": 0.5267
+          },
+          {
+            "comment_id": "lzvxphq",
+            "score": 0.9452171461797901,
+            "body": "BREAKING NEWS: 10 second penalty for Max for driving unnecessarily fast at the start and causing multiple crashes behind him",
+            "vader_compound": -0.4588
+          },
+          {
+            "comment_id": "lzw4ywa",
+            "score": 0.9384402340584129,
+            "body": "YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN YELLOW GREEN",
+            "vader_compound": 0.0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "sainz",
+          "stop",
+          "pit",
+          "safety",
+          "hamilton",
+          "won",
+          "driving",
+          "joke",
+          "drive",
+          "penalty",
+          "line",
+          "didn"
+        ],
+        "n_dominant_docs": 553,
+        "mean_sentiment": 0.025732007233273062,
+        "top_comments": [
+          {
+            "comment_id": "lzway7a",
+            "score": 0.9495664442593528,
+            "body": "10 second stop/go for safety concerns, but they didn't send out a VSC to remove the mirror.\n\nWhat was the plan before that Sauber exploded it? To have everyone lift in the middle of the straight for the rest of the race?",
+            "vader_compound": 0.4039
+          },
+          {
+            "comment_id": "lzw772f",
+            "score": 0.9462142521068609,
+            "body": "All they had to do was drop a VSC for half a lap for a marshall to find a gap and grab the wing mirror. Now they have to wait for the cars to catch the safety car, get a whole team of marshalls to sweep all the shards away, and wait for the lapped cars to overtake.",
+            "vader_compound": 0.1779
+          },
+          {
+            "comment_id": "lzwaw13",
+            "score": 0.9383596348859778,
+            "body": "encouraging rain truck historical languid juggle party safe light sugar\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",
+            "vader_compound": 0.8402
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-03-16",
+      "race": "Australian GP 2025",
+      "note": "Papaya rules applied race 1 of new season."
+    },
+    "n_comments": 6260,
+    "n_unique_authors": 3686,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "max",
+          "verstappen",
+          "time",
+          "looks",
+          "year",
+          "rain",
+          "feel",
+          "weekend",
+          "end",
+          "isn",
+          "drive",
+          "leclerc"
+        ],
+        "n_dominant_docs": 1417,
+        "mean_sentiment": 0.14072455892731123,
+        "top_comments": [
+          {
+            "comment_id": "mi0bghu",
+            "score": 0.9836002201693744,
+            "body": "Radar update with 4 hours until lights out:\n\nPre-frontal rain is pushing east and away from Melbourne, and so the heaviest of the rain is now over (upper circle w/ right arrows). Some heavy rain showers will come right before the passage of the surface cold front (line w/ up arrows) in about 30 minu",
+            "vader_compound": -0.1531
+          },
+          {
+            "comment_id": "mi0snf3",
+            "score": 0.9554300145696405,
+            "body": "Checking the rain radar (google BOM Melbourne rain radar, direct linking doesn't work) the worst of the rain is gone, just very light showers possible. Think it will go ahead if the track can dry fast enough.",
+            "vader_compound": 0.5096
+          },
+          {
+            "comment_id": "mi19mgq",
+            "score": 0.9420942156713975,
+            "body": "Sounds so stupid but I hope everyone stays safe in the race today. The idea of rookies + wet track makes my nerves go lmao. I\u2019m always nervous that there\u2019ll be another Grosjean situation, or worse.",
+            "vader_compound": 0.649
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "ferrari",
+          "mclaren",
+          "lewis",
+          "did",
+          "max",
+          "pace",
+          "lando",
+          "let",
+          "piastri",
+          "williams",
+          "going",
+          "doing"
+        ],
+        "n_dominant_docs": 1454,
+        "mean_sentiment": 0.15636189821182947,
+        "top_comments": [
+          {
+            "comment_id": "mi16a0s",
+            "score": 0.9459625623222002,
+            "body": "I know it\u2019s newsworthy and I know Sky have always been biased toward the British drivers, but if 90% of the coverage is going to be about Lewis and his move to Ferrari it\u2019s going to get old real quick.",
+            "vader_compound": -0.1406
+          },
+          {
+            "comment_id": "mi142tn",
+            "score": 0.9331888299075214,
+            "body": "I gotta tell you man. If he\u2019s only a few weeks old he\u2019s not gonna understand much of what\u2019s going on. Try explaining tyre strategy to him, you\u2019ll see.",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "mi13rn8",
+            "score": 0.9322328521136901,
+            "body": "My son was born some weeks ago so this is our first race together. Very much looking forward to this one. Hopefully it starts on time, otherwise I think he'll be fast asleep, just like me!",
+            "vader_compound": 0.6696
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "year",
+          "yuki",
+          "marko",
+          "williams",
+          "sainz",
+          "seat",
+          "rb",
+          "ve",
+          "said",
+          "new",
+          "fucking",
+          "fuck"
+        ],
+        "n_dominant_docs": 1429,
+        "mean_sentiment": 0.05852162351294611,
+        "top_comments": [
+          {
+            "comment_id": "mi13933",
+            "score": 0.94652163997635,
+            "body": "i know many people were upset regarding yuki not getting promoted, including me -- but now I'm thinking it was for the best. This may be the best scenario for springboarding him into a new long term contract with  another team.",
+            "vader_compound": 0.9029
+          },
+          {
+            "comment_id": "mj3chpu",
+            "score": 0.9272413655464218,
+            "body": "Fuck it, I'm calling it\n\nTHIS YEAR\u2122!\n\nTHE HYPE TRAIN ARE LEAVING THE STATION, ALL ABOARD!\n\nCHOO FUCKING CHOO",
+            "vader_compound": -0.5025
+          },
+          {
+            "comment_id": "mi1apvy",
+            "score": 0.9270261055081584,
+            "body": "I love the new starting grid graphics with the view of the grid in the middle as we go through. A rare graphics W",
+            "vader_compound": 0.6369
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "red",
+          "bull",
+          "red bull",
+          "hamilton",
+          "second",
+          "anthony",
+          "saying",
+          "having",
+          "driving",
+          "anthony hamilton",
+          "moment",
+          "class"
+        ],
+        "n_dominant_docs": 801,
+        "mean_sentiment": 0.13100124843945068,
+        "top_comments": [
+          {
+            "comment_id": "mi16svd",
+            "score": 0.9521176408900368,
+            "body": "If the FIA/stewards weren\u2019t so spineless this would not only start on time but be a standing start. Conditions look fine. There\u2019s a reason inters and wets exist. \n\nBut based on recent history neither will happen.",
+            "vader_compound": 0.296
+          },
+          {
+            "comment_id": "mi1cctw",
+            "score": 0.9426777160943417,
+            "body": "Such a nice gesture from Anthony Hamilton consoling Hadjar. The Hamilton family is a class act.",
+            "vader_compound": 0.4215
+          },
+          {
+            "comment_id": "mi1cj1k",
+            "score": 0.9333327104053178,
+            "body": "Of everyone kicking about the paddock I'm glad it was Hamilton Sr who got there.\n\nJos would have kicked him in the balls and started screaming at him",
+            "vader_compound": 0.1027
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "lawson",
+          "yuki",
+          "albon",
+          "liam",
+          "hadjar",
+          "th",
+          "george",
+          "going",
+          "lewis",
+          "happy",
+          "russell",
+          "didn"
+        ],
+        "n_dominant_docs": 1159,
+        "mean_sentiment": 0.09706911130284727,
+        "top_comments": [
+          {
+            "comment_id": "mi0aejc",
+            "score": 0.9526599988569951,
+            "body": "I highly suggest watching the onboard cam of the Aston Martin Valkyrie running at the 12 hours of Sebring right now.  Still about 2 hours left, and it's night time.\n\n\n#IT SOUNDS GREATTTT",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "mi0vg1r",
+            "score": 0.9188151432648428,
+            "body": "I pulled up ESPNEWS to watch the lead up to the race. It doesn't start for another 15 minutes and currently they're airing an Excel Championship",
+            "vader_compound": 0.7096
+          },
+          {
+            "comment_id": "mhvn3me",
+            "score": 0.9107676779038857,
+            "body": "Lawson getting butchered on social media by Checo and Ric stans",
+            "vader_compound": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-09-07",
+      "race": "Italian GP 2025",
+      "note": "Major flashpoint. 'Slow pit stops are part of racing' quote."
+    },
+    "n_comments": 4728,
+    "n_unique_authors": 3076,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "points",
+          "championship",
+          "mclaren",
+          "lando",
+          "point",
+          "oscar",
+          "time",
+          "need",
+          "going",
+          "let",
+          "piastri",
+          "feel"
+        ],
+        "n_dominant_docs": 1325,
+        "mean_sentiment": 0.09437660377358491,
+        "top_comments": [
+          {
+            "comment_id": "nd86wsw",
+            "score": 0.9794667535696094,
+            "body": "I mean Lando literally said it was agreed upon in interview afterwards, so I don't think we can believe any one of them without having clear info from the team (which we won't get, because why should they tell us). \n\n\nI think we would be so much better off when we finally collectively would realize ",
+            "vader_compound": 0.7842
+          },
+          {
+            "comment_id": "nd5xjqc",
+            "score": 0.952744907864462,
+            "body": "Am I evil for hoping that the title battle goes down to Abu Dhabi just because of this? I want to see McLaren sweat as they need to either reinforce their precious Papaya rules or let them race.",
+            "vader_compound": -0.0516
+          },
+          {
+            "comment_id": "nczda0y",
+            "score": 0.9380031152100125,
+            "body": "I hope not, and I say that as a Norris fan. The last thing we need is this dumb shit to come into play in Abu Dhabi.",
+            "vader_compound": -0.2204
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "oscar",
+          "lando",
+          "pit",
+          "stop",
+          "piastri",
+          "norris",
+          "slow",
+          "swap",
+          "didn",
+          "position",
+          "pit stop",
+          "year"
+        ],
+        "n_dominant_docs": 1092,
+        "mean_sentiment": 0.003749999999999999,
+        "top_comments": [
+          {
+            "comment_id": "nd02ibs",
+            "score": 0.9856256643513371,
+            "body": "First of all they had like 10 laps to pit Oscar safely before being under threat from Leclerc, but they chose to gamble for the late safety car.\n\nOscar was anyway still under no threat from Leclerc as he was losing at most 3 tenths per lap and comfortably came out 4 seconds ahead.\n\nFinally it was La",
+            "vader_compound": 0.966
+          },
+          {
+            "comment_id": "nd6g4l4",
+            "score": 0.9776160373200409,
+            "body": "Norris was offered first pit stop and declined. The lie that's being propagated that he let Oscar pit first to defend against Leclerc is ridiculous. He didn't want to pit first as a late safety car would have given Oscar a cheap pit stop and track position ahead of Lando",
+            "vader_compound": -0.5142
+          },
+          {
+            "comment_id": "nd7pgts",
+            "score": 0.9761955824331079,
+            "body": "To be fair, I think there's a line defining a 'slow' pitstop, compared to a 'botched' pit stop.\n\nIf the pit stop is just 'slow' for no real tangible reason, then yes I agree with Oscar in this situation.\n\nIf the pit stop is slow because of a clearly noted team error / 'botch' (such as in Monza), the",
+            "vader_compound": -0.0772
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "lando",
+          "pit",
+          "strategy",
+          "undercut",
+          "mclaren",
+          "different",
+          "piastri",
+          "mistake",
+          "crew",
+          "risk",
+          "ll",
+          "garage"
+        ],
+        "n_dominant_docs": 619,
+        "mean_sentiment": 0.04073311793214863,
+        "top_comments": [
+          {
+            "comment_id": "nd83p1l",
+            "score": 0.9797449040955791,
+            "body": "I can sort of see both sides of the coin here. And weirdly enough, my thinking about this has flipped and turned right upside down since it happened. First I thought I was angry, but.. within a team - I think a botched stop (given it's a shared resource) is something that I think McLaren is right to",
+            "vader_compound": -0.4138
+          },
+          {
+            "comment_id": "nd8sgci",
+            "score": 0.9731404789110459,
+            "body": "McL gave the better strategy (chose by most of the top 10) to their driver who was beefing with aston martin at the start and embraced it. what actually the difference between here (crew mistake at pitstop) and hungary (crew mistake to identified which strategy was better)? \nboth were out of the dri",
+            "vader_compound": 0.8594
+          },
+          {
+            "comment_id": "nd88xc4",
+            "score": 0.9632322232571748,
+            "body": "Why is everyone so hung up on Hungary 25. Different strategies are normal and no one thought 1 stop was fastest. Norris made a 1 stop work and now everyone thinks Piastri got screwed over. Piastri had a chance to overtake at the end and fucked it. That loss is on him.",
+            "vader_compound": -0.926
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "max",
+          "verstappen",
+          "luck",
+          "mclaren",
+          "radio",
+          "ve",
+          "hamilton",
+          "pole",
+          "watching",
+          "title",
+          "tv",
+          "didn"
+        ],
+        "n_dominant_docs": 823,
+        "mean_sentiment": 0.09899137302551642,
+        "top_comments": [
+          {
+            "comment_id": "nczn3i2",
+            "score": 0.9634298252405225,
+            "body": "Yeah this title fight is too nicey nicey. \n\nGive me some Hamilton v Alonso, Hamilton v Rosberg Senna v Prost or even some Vettel v Webber in 2010 type heat. \n\nThat fire is what made for some epic seasons. This one is kinda meh even though they\u2019re having a good on track fight",
+            "vader_compound": -0.3626
+          },
+          {
+            "comment_id": "ncwrb99",
+            "score": 0.9634157026975022,
+            "body": "Fan wars, attacking other users and blind hatred against teams, drivers and broadcasters will result in bans.\n\nDisagreements are okay, but is possible to discuss the race without resorting to attacks, abuse and toxic comments.\n\n**If you see any comments breaking these rules just please report them s",
+            "vader_compound": -0.8069
+          },
+          {
+            "comment_id": "ncwr7wm",
+            "score": 0.9634157026975022,
+            "body": "Fan wars, attacking other users and blind hatred against teams, drivers and broadcasters will result in bans.\n\nDisagreements are okay, but is possible to discuss the race without resorting to attacks, abuse and toxic comments.\n\n**If you see any comments breaking these rules just please report them s",
+            "vader_compound": -0.8069
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "wdc",
+          "mclaren",
+          "year",
+          "lewis",
+          "weekend",
+          "red",
+          "ferrari",
+          "look",
+          "won",
+          "happen",
+          "saying",
+          "love"
+        ],
+        "n_dominant_docs": 869,
+        "mean_sentiment": 0.055471576524741086,
+        "top_comments": [
+          {
+            "comment_id": "nd5lct7",
+            "score": 0.9425460089775108,
+            "body": "Jep, I knew that would happen as soon as I saw the switch happen, lol. If it's not a race weekend F1 fans will just talk the newest hot topic in the sport to death for weeks.",
+            "vader_compound": -0.2732
+          },
+          {
+            "comment_id": "nd8srqm",
+            "score": 0.9381644884090915,
+            "body": "No, multiple drivers have already stated in various interviews that we only hear the juiciest parts of the radios and that they themselves say the most outrageous things in the heat of the moment but never really mean it.\n\nSo take your money and spend it on something nice.",
+            "vader_compound": 0.3723
+          },
+          {
+            "comment_id": "nd3usju",
+            "score": 0.9379883347854759,
+            "body": "And then what? Because there's no shortage of people who are willing to work in F1 for a terrible salary. They've got no bargaining power neither on their own nor as a collective. If you're working in HR at an F1 team and put out a Job posting for an engineer with a master's degree paying 45k\u00a3 you'l",
+            "vader_compound": -0.3527
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-10-05",
+      "race": "Singapore GP 2025",
+      "note": "Piastri radio disconnect. 'Oscar's villain arc' meme. 'Control the controllables'."
+    },
+    "n_comments": 2299,
+    "n_unique_authors": 1606,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "lando",
+          "oscar",
+          "rules",
+          "papaya",
+          "contact",
+          "max",
+          "incident",
+          "papaya rules",
+          "said",
+          "wasn",
+          "fair",
+          "hit"
+        ],
+        "n_dominant_docs": 706,
+        "mean_sentiment": 0.062281869688385276,
+        "top_comments": [
+          {
+            "comment_id": "nhvnszk",
+            "score": 0.9378616592686667,
+            "body": "If you watch Oscar\u2019s onboard, he was very nearly put into the wall by Lando. I totally see his point, especially because of all the papaya rules thing.",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "nhq03pq",
+            "score": 0.9378190138068352,
+            "body": "Agreed. Maybe he was affected by dirty air going around the turn but Lando was far enough up the road as to where you couldn\u2019t justify an impeding penalty.",
+            "vader_compound": -0.6908
+          },
+          {
+            "comment_id": "nhvo285",
+            "score": 0.9267213555421834,
+            "body": "He hit Max first, then tried to avoid bigger contact and accidently hit Oscar.",
+            "vader_compound": -0.296
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "piastri",
+          "norris",
+          "mclaren",
+          "did",
+          "races",
+          "time",
+          "max",
+          "lando",
+          "mean",
+          "gt",
+          "didn",
+          "say"
+        ],
+        "n_dominant_docs": 371,
+        "mean_sentiment": 0.11031671159029652,
+        "top_comments": [
+          {
+            "comment_id": "nhw8hbu",
+            "score": 0.9493068250944295,
+            "body": "As long as Norris not winning, coming in behind Norris means losing 21 points, and Piastri has 22.\n\nOf course this also means that Max is coming in hot with -48, but Piastri has 63 there.",
+            "vader_compound": -0.3995
+          },
+          {
+            "comment_id": "ni1wndr",
+            "score": 0.9460485183716637,
+            "body": "Lando did a Max and more power to him. Being nice will not make you a world champion unless you have a stupidly fast car and a worse 2nd driver. He saw a gap and went for it as he should.",
+            "vader_compound": 0.1531
+          },
+          {
+            "comment_id": "nhw4iu7",
+            "score": 0.9320500307334445,
+            "body": "The way they were acting about Hadjar letting Max and Lando through was ridiculous lol automatically assuming the worst and saying \u201cwow.\u201d Nothing fucking happened \ud83d\ude02",
+            "vader_compound": -0.2263
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "win",
+          "max",
+          "mclaren",
+          "year",
+          "wdc",
+          "didn",
+          "teammate",
+          "verstappen",
+          "end",
+          "want",
+          "going",
+          "fans"
+        ],
+        "n_dominant_docs": 386,
+        "mean_sentiment": 0.19354300518134715,
+        "top_comments": [
+          {
+            "comment_id": "nhsnylx",
+            "score": 0.9494008654331825,
+            "body": "Also, as a driver it's much easier to just go on a break and do GT or some other series for a year, and negotiate for the year after that. As a team you need good drivers the entire time.\n\nIt's not ideal of course, but someone the caliber of Russell can much easier just say he'd rather take a year o",
+            "vader_compound": 0.7293
+          },
+          {
+            "comment_id": "nhq1nbk",
+            "score": 0.9377750867872321,
+            "body": "If not Russell then who? McLaren boys are not standing out much, nether are Ferarri. It helps Russell's teammate is slow/new so we don't know what the car could do but still, steps ahead of most others when it comes to consistent performance all season now.",
+            "vader_compound": 0.2023
+          },
+          {
+            "comment_id": "nhqa4kh",
+            "score": 0.9371697518396983,
+            "body": "his greatest quali lap is still Spa 2021, putting that dog of a williams up to p2 in torrential rain. just wish Max hadn't taken the pole there, it would have been the funniest way for Russell to win his first race.",
+            "vader_compound": 0.936
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "stop",
+          "pit",
+          "strategy",
+          "mclaren",
+          "let",
+          "slow",
+          "singapore",
+          "position",
+          "hungary",
+          "monza",
+          "undercut",
+          "radio"
+        ],
+        "n_dominant_docs": 486,
+        "mean_sentiment": 0.0009681069958847685,
+        "top_comments": [
+          {
+            "comment_id": "nhq0znx",
+            "score": 0.9444862945041623,
+            "body": "Let's be honest, if he can keep ahead at the start and doesn't get undercut at the pit stop, he'll probably hold on. It's Singapore, he doesn't have to worry about overtakes.",
+            "vader_compound": 0.5432
+          },
+          {
+            "comment_id": "nhq0wtv",
+            "score": 0.9325692864658979,
+            "body": "Most impressive Singapore pole I've seen since 2018, or maybe even since 2013. Honestly took my breath away when I saw his S1 time.",
+            "vader_compound": 0.7645
+          },
+          {
+            "comment_id": "nhvodn8",
+            "score": 0.9258477687803993,
+            "body": "Anyone who defends this is biased or just dumb. A race driver complaining that he got overtaken on the inside a little too agresively and wanting the position back for absolutely no reason",
+            "vader_compound": -0.8268
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "championship",
+          "george",
+          "russell",
+          "come",
+          "alonso",
+          "won",
+          "ve",
+          "corner",
+          "toto",
+          "post",
+          "hamilton",
+          "max"
+        ],
+        "n_dominant_docs": 350,
+        "mean_sentiment": 0.08922657142857143,
+        "top_comments": [
+          {
+            "comment_id": "nhq1egf",
+            "score": 0.9645394767125074,
+            "body": "I guess some people may find it weird that championship leader isn\u2019t top-2 driver, especially considering Oscar really had only two major mistakes: Australia and Baku. On top of that, George is completing against rookie, so we just assume he\u2019s maximizing car\n\nI only gave examples of why some might c",
+            "vader_compound": -0.1513
+          },
+          {
+            "comment_id": "nhpy0ps",
+            "score": 0.9372934452524635,
+            "body": "That first lap from Russell was just insane. I\u2019m surprised he beat it in his next run. Crazy pace. Good to see Merc properly back in the fight here. Never thought I\u2019d say that after 2020 but here we are.",
+            "vader_compound": -0.2382
+          },
+          {
+            "comment_id": "nhw5283",
+            "score": 0.9270662990030829,
+            "body": "Cameraman busy zooming at the GFs. Absolutely criminal that I wake up to watch this at 5am, and the TV director can't arsed to show Hamilton charge through the pack then battle with Alonso to the finish line.",
+            "vader_compound": -0.7425
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-10-18",
+      "race": "US GP Sprint 2025 (COTA)",
+      "note": "Norris-Piastri collision. 'Papaya rules are finally over' fan response."
+    },
+    "n_comments": 5167,
+    "n_unique_authors": 2960,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "lando",
+          "mclaren",
+          "max",
+          "piastri",
+          "norris",
+          "time",
+          "year",
+          "oscar",
+          "wins",
+          "leclerc",
+          "charles",
+          "didn"
+        ],
+        "n_dominant_docs": 1611,
+        "mean_sentiment": 0.12665096213531968,
+        "top_comments": [
+          {
+            "comment_id": "nk6338s",
+            "score": 0.9553904460675576,
+            "body": "When Verstappen wins the title, future generations will not believe the stories of how badly Piastri and Norris are choking this. \n\nThey were cruising. But since Monza it's just been a series of increasingly bad performances. They are just bending over and letting Verstappen have at it.",
+            "vader_compound": -0.7543
+          },
+          {
+            "comment_id": "nk65w5n",
+            "score": 0.9267630109444288,
+            "body": "Every time Max gets mad at someone doing the exact same thing he\u2019s known for I crack up \ud83d\ude02",
+            "vader_compound": -0.0772
+          },
+          {
+            "comment_id": "nk63dcr",
+            "score": 0.9199170242116419,
+            "body": "Did you get a mclaren double DNF? \n\nYes\n\nWhat did it cost? \n\nHulkenpodium",
+            "vader_compound": 0.4696
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "max",
+          "getting",
+          "verstappen",
+          "track",
+          "weekend",
+          "russell",
+          "does",
+          "george",
+          "having",
+          "sprint",
+          "ferrari",
+          "tv"
+        ],
+        "n_dominant_docs": 793,
+        "mean_sentiment": 0.07677490542244642,
+        "top_comments": [
+          {
+            "comment_id": "nk69kj4",
+            "score": 0.9315181238051852,
+            "body": "RB - \u201cGreat drive, Max way to set the tone this weekend.\u201d\n\nMax - \u201cThe rear of this car is sh-\u201c\n\n*click*\n\nRB - \u201cHe says well done guys, great work on the car.\u201d",
+            "vader_compound": 0.7351
+          },
+          {
+            "comment_id": "nk67h0j",
+            "score": 0.9268637830063409,
+            "body": "Could understand the \"it was racing\" for Max who was taking avoiding action....but Russell come on man lol, after the historical pearl clutching thats hilarious",
+            "vader_compound": 0.4767
+          },
+          {
+            "comment_id": "nk63l48",
+            "score": 0.919333935885944,
+            "body": "Twice in recent years drivers have tried a switchback at COTA on lap 1 at turn 1 and ended up being wiped out.",
+            "vader_compound": 0.0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "piastri",
+          "th",
+          "doesn",
+          "yuki",
+          "shit",
+          "norris",
+          "zak",
+          "fuck",
+          "fault",
+          "pit",
+          "end",
+          "grid"
+        ],
+        "n_dominant_docs": 750,
+        "mean_sentiment": -0.017634133333333333,
+        "top_comments": [
+          {
+            "comment_id": "nk63aqe",
+            "score": 0.9108522868054333,
+            "body": "Zak Brown continues to be the biggest piece of trash on the grid. Imagine that.",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "nk7kr6z",
+            "score": 0.8998962147074538,
+            "body": "Zak before every session. Zak during every session. Zak after every session. \n\nEnd me.",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "nk6844p",
+            "score": 0.8997337203352976,
+            "body": "Holy shit, this has been the chaos that I\u2019ve desired for ages. Excellent",
+            "vader_compound": -0.3612
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "max",
+          "oscar",
+          "win",
+          "wdc",
+          "fucking",
+          "start",
+          "going",
+          "mclaren",
+          "championship",
+          "know",
+          "let",
+          "tomorrow"
+        ],
+        "n_dominant_docs": 971,
+        "mean_sentiment": 0.14015334706488156,
+        "top_comments": [
+          {
+            "comment_id": "nk63mhd",
+            "score": 0.9365972869527824,
+            "body": "Oscar drove as much into Nico as Nico drove into Oscar. L take from Zac for sure. You cant just turn this sharp at the start and expect not a single car to be there.",
+            "vader_compound": 0.7213
+          },
+          {
+            "comment_id": "nk1qprx",
+            "score": 0.9331831755886751,
+            "body": "Please God let Max win the WDC, it would be so fucking funny\u00a0",
+            "vader_compound": 0.8927
+          },
+          {
+            "comment_id": "nk699qw",
+            "score": 0.9272217294833938,
+            "body": "10 seconds? That\u2019s crazy. Its impossible to know what is going to be punished these days, and if it is punished, how harshly. I don\u2019t get it anymore.",
+            "vader_compound": -0.8126
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "max",
+          "points",
+          "ferrari",
+          "races",
+          "red",
+          "red bull",
+          "bull",
+          "fight",
+          "du",
+          "winning",
+          "need",
+          "second"
+        ],
+        "n_dominant_docs": 1042,
+        "mean_sentiment": 0.1630330134357006,
+        "top_comments": [
+          {
+            "comment_id": "nk66v7v",
+            "score": 0.9326815861128314,
+            "body": "Red Bull so good we got max complaining about issues despite pulling away from the field.\n\n  \nTakes me back to 2023 \ud83e\udd79",
+            "vader_compound": 0.4481
+          },
+          {
+            "comment_id": "nk6a2ko",
+            "score": 0.9270397623973324,
+            "body": "lol RBR 7 points behind Ferrari in the WCC despite virtually 100% of those points have come from Max\n\nJust Ferrari things",
+            "vader_compound": 0.4215
+          },
+          {
+            "comment_id": "nk1r75p",
+            "score": 0.919971413715655,
+            "body": "  \nRoses are red\n\nViolets are blue\n\nFerrari is trash\n\nDu du du du.",
+            "vader_compound": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-11-30",
+      "race": "Qatar GP 2025",
+      "note": "McLaren strategy failure. Title fight goes to final race."
+    },
+    "n_comments": 9557,
+    "n_unique_authors": 5270,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "max",
+          "wdc",
+          "mclaren",
+          "time",
+          "points",
+          "lando",
+          "know",
+          "title",
+          "shit",
+          "piastri",
+          "turn",
+          "isn"
+        ],
+        "n_dominant_docs": 1913,
+        "mean_sentiment": 0.06098808154730789,
+        "top_comments": [
+          {
+            "comment_id": "nrk0f5w",
+            "score": 0.9377973555089697,
+            "body": "People acting like P3 is bad for Lando and like Max just won the title...\n\nI miss 10 years ago when there wasnt this much brain drain in this sport. P3 is amazing for Lando today",
+            "vader_compound": 0.8126
+          },
+          {
+            "comment_id": "nrf80uf",
+            "score": 0.9271726651534388,
+            "body": "He sucks at low grip tracks. And it will be a real liability to his career if he doesn\u2019t improve that.",
+            "vader_compound": -0.3612
+          },
+          {
+            "comment_id": "nrkhled",
+            "score": 0.9268370705858993,
+            "body": "Rightly so. McLaren acting like they are a backmarker fighting for rare lucky points. Completely clueless strategy wise.",
+            "vader_compound": 0.5221
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "lando",
+          "max",
+          "win",
+          "oscar",
+          "track",
+          "sprint",
+          "mclaren",
+          "did",
+          "championship",
+          "let",
+          "end",
+          "didn"
+        ],
+        "n_dominant_docs": 2132,
+        "mean_sentiment": 0.13576463414634146,
+        "top_comments": [
+          {
+            "comment_id": "nrkdhxo",
+            "score": 0.9837620816454318,
+            "body": "So to recap, as a result of McLaren strategy:\n\nLando could have won today if they pitted him under the safety car and not Oscar, winning Lando the championship. \n\nOscar could have won today if they pitted him under the safety car, and not Lando, keeping Oscar second in the drivers standings. \n\nThey ",
+            "vader_compound": 0.8358
+          },
+          {
+            "comment_id": "nrdu3f1",
+            "score": 0.9521760228451766,
+            "body": "2023: Piastri Sprint win, Verstappen GP win.\n\n2024: Piastri Sprint win, Verstappen GP win.\n\n2025: Piastri Sprint win, ........",
+            "vader_compound": 0.9638
+          },
+          {
+            "comment_id": "nrk7o1n",
+            "score": 0.9462475063563281,
+            "body": "Piastri coming in on 25 would have definitely brought Lando out in the train. OP ain't helping himself one bit by following \"papaya\" rules",
+            "vader_compound": 0.2052
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "lando",
+          "mclaren",
+          "oscar",
+          "say",
+          "does",
+          "pit",
+          "said",
+          "fucking",
+          "getting",
+          "lost",
+          "ahead",
+          "feel"
+        ],
+        "n_dominant_docs": 1677,
+        "mean_sentiment": -0.010959391771019681,
+        "top_comments": [
+          {
+            "comment_id": "nrkgr1u",
+            "score": 0.9363239406120142,
+            "body": "\u201cYour pace was incredible\u201d that\u2019s what McLaren had to say to Oscar after he finishes 2nd being the fastest car this whole weekend! \nAbsolutely hilarious \ud83d\ude02",
+            "vader_compound": 0.7339
+          },
+          {
+            "comment_id": "nrk2heu",
+            "score": 0.9199461235037212,
+            "body": "\"They have lost all their flexibility for the reminder of the race\"\n\nThey also have a full free pit stop",
+            "vader_compound": 0.296
+          },
+          {
+            "comment_id": "nrk2qj0",
+            "score": 0.9198649834686706,
+            "body": "\u201cThey\u2019ve lost all their flexibility\u201d \n\nThey got a free pit stop lmao",
+            "vader_compound": 0.5719
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "norris",
+          "year",
+          "ferrari",
+          "max",
+          "red",
+          "bull",
+          "red bull",
+          "kimi",
+          "wins",
+          "piastri",
+          "lewis",
+          "yuki"
+        ],
+        "n_dominant_docs": 2168,
+        "mean_sentiment": 0.04043219557195572,
+        "top_comments": [
+          {
+            "comment_id": "nrf94zs",
+            "score": 0.9570695496010113,
+            "body": "He'll just let Max dive into T1, brake to just let him pass safely and cruise into third. Maybe do a \"safe\" overtake during the race, but going safe with Max in THOSE circumstances is probably not safe at all.",
+            "vader_compound": 0.5846
+          },
+          {
+            "comment_id": "nrk586s",
+            "score": 0.9545008195921693,
+            "body": "Since there is some confusion about this: Pirelli has restricted the teams to **25 laps per stint** for the Qatar GP.\n\n* Piastri and Norris **must pit BY** Lap 25\n* Everyone who pitted on Lap 7 **must pit ON Lap 32**. They cannot pit earlier because that will make their final stint longer than 25 la",
+            "vader_compound": -0.7425
+          },
+          {
+            "comment_id": "nrfofhg",
+            "score": 0.9459833223317696,
+            "body": "This is fairly well known.\n\nFerrari had their own DSQ for ride height earlier this season and are a meme for their amount of LICO which they have to do because their ride height is so low",
+            "vader_compound": -0.1633
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "lando",
+          "oscar",
+          "max",
+          "norris",
+          "needs",
+          "need",
+          "chance",
+          "abu",
+          "dhabi",
+          "abu dhabi",
+          "tomorrow",
+          "going"
+        ],
+        "n_dominant_docs": 1667,
+        "mean_sentiment": 0.1606011397720456,
+        "top_comments": [
+          {
+            "comment_id": "nrk7ib6",
+            "score": 0.9523969056600312,
+            "body": "Piastri should have ignored orders to come in on lap 24 and waited until 25, forcing Lando to double stack and making him lose 5 spots. Missed opportunity.",
+            "vader_compound": -0.5267
+          },
+          {
+            "comment_id": "nrkcfoq",
+            "score": 0.9462952063538614,
+            "body": "This is one of those races where no amount of trying to will something to happen is gonna work, hope Piastri's strat can help him.\n\nNorris needs the luck more it seems.",
+            "vader_compound": 0.7506
+          },
+          {
+            "comment_id": "nrfajyp",
+            "score": 0.9380931573508631,
+            "body": "It doesn\u2019t need to be as catastrophic as a DNF. Norris needs to come P5+ in one of the two races for Oscar to have a legit chance.",
+            "vader_compound": -0.296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "date": "2025-12-07",
+      "race": "Abu Dhabi GP 2025",
+      "note": "Brown openly endorses team orders. Norris wins title. Constructors back-to-back."
+    },
+    "n_comments": 7161,
+    "n_unique_authors": 4712,
+    "topics": [
+      {
+        "topic_id": 0,
+        "top_terms": [
+          "norris",
+          "piastri",
+          "max",
+          "pit",
+          "need",
+          "know",
+          "going",
+          "mclaren",
+          "track",
+          "ve",
+          "hate",
+          "didn"
+        ],
+        "n_dominant_docs": 1614,
+        "mean_sentiment": 0.08773810408921932,
+        "top_comments": [
+          {
+            "comment_id": "nrk586s",
+            "score": 0.9528819075604951,
+            "body": "Since there is some confusion about this: Pirelli has restricted the teams to **25 laps per stint** for the Qatar GP.\n\n* Piastri and Norris **must pit BY** Lap 25\n* Everyone who pitted on Lap 7 **must pit ON Lap 32**. They cannot pit earlier because that will make their final stint longer than 25 la",
+            "vader_compound": -0.7425
+          },
+          {
+            "comment_id": "nsnm3xz",
+            "score": 0.9456912918404894,
+            "body": "Yuki is also going to do a long stint at the beginning in hopes of slowing down Norris after he pits\n\nthere really is no scenario where Lando can just cruise home safely in P3",
+            "vader_compound": 0.5456
+          },
+          {
+            "comment_id": "nrkcfoq",
+            "score": 0.9424915393240094,
+            "body": "This is one of those races where no amount of trying to will something to happen is gonna work, hope Piastri's strat can help him.\n\nNorris needs the luck more it seems.",
+            "vader_compound": 0.7506
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "top_terms": [
+          "year",
+          "shit",
+          "lewis",
+          "media",
+          "lost",
+          "years",
+          "comment",
+          "time",
+          "different",
+          "fucking",
+          "ferrari",
+          "grid"
+        ],
+        "n_dominant_docs": 1201,
+        "mean_sentiment": 0.04787577019150708,
+        "top_comments": [
+          {
+            "comment_id": "nrkinvm",
+            "score": 0.9331908584551006,
+            "body": "Carlos, twice on the podium for Williams, none for Lewis Hamilton at Ferrari, ....\n\nI am the frog with the tea meme, have you seen the frog with the tea?",
+            "vader_compound": 0.0
+          },
+          {
+            "comment_id": "nrkgysd",
+            "score": 0.9270818903986526,
+            "body": "Ferrari paying more 6 times more than what they had to pay Sainz only to watch Sainz take podium again in a Williams. LOL",
+            "vader_compound": 0.4824
+          },
+          {
+            "comment_id": "nrp2miz",
+            "score": 0.9196704431491095,
+            "body": "I find it rich that RB manufactured a fuss out of this while they have been repeatedly involved with funny business between their 2 teams over the years. They are the last team on the grid that should even think to accuse another driver for something like this.",
+            "vader_compound": 0.802
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "top_terms": [
+          "red",
+          "bull",
+          "red bull",
+          "moment",
+          "abu",
+          "dhabi",
+          "abu dhabi",
+          "yuki",
+          "come",
+          "comments",
+          "honestly",
+          "fan"
+        ],
+        "n_dominant_docs": 909,
+        "mean_sentiment": 0.03994510451045105,
+        "top_comments": [
+          {
+            "comment_id": "nrp8qby",
+            "score": 0.9425022514579308,
+            "body": "Doesn\u2019t even acknowledge it was their team members that made the comments. Just that there were comments and they regret that\u2019s it caused a problem. \nIt\u2019s a political statement with no real apology or accountability.",
+            "vader_compound": -0.7813
+          },
+          {
+            "comment_id": "nrp0n7e",
+            "score": 0.9381383332379061,
+            "body": "Marko making implications after the race is significantly worse. What GP said was in the heat of the moment and FOM selectively broadcasting it fanned the flames.",
+            "vader_compound": -0.4767
+          },
+          {
+            "comment_id": "nrp0ia6",
+            "score": 0.9271856169306049,
+            "body": "I'd have liked them to at least mention GP and especially Marko in that apology statement to hold them accountable. They are the main persons who caused the abuse.",
+            "vader_compound": -0.296
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "top_terms": [
+          "lando",
+          "max",
+          "oscar",
+          "win",
+          "mclaren",
+          "championship",
+          "points",
+          "won",
+          "wdc",
+          "doesn",
+          "piastri",
+          "champion"
+        ],
+        "n_dominant_docs": 2298,
+        "mean_sentiment": 0.2357157963446475,
+        "top_comments": [
+          {
+            "comment_id": "nrkdhxo",
+            "score": 0.9828280941172766,
+            "body": "So to recap, as a result of McLaren strategy:\n\nLando could have won today if they pitted him under the safety car and not Oscar, winning Lando the championship. \n\nOscar could have won today if they pitted him under the safety car, and not Lando, keeping Oscar second in the drivers standings. \n\nThey ",
+            "vader_compound": 0.8358
+          },
+          {
+            "comment_id": "nrkie5x",
+            "score": 0.9689487211192247,
+            "body": "If the top 3 are as we expect next week, realistically it doesn\u2019t really matter if Lando needs 2nd or 3rd. Surely Piastri would have to disobey the biggest team order he\u2019ll ever get and let LN past if Max had a victory in his hands? \n\nObviously there are several other scenarios, but that\u2019s the most ",
+            "vader_compound": 0.3708
+          },
+          {
+            "comment_id": "nrkkk71",
+            "score": 0.955182363605142,
+            "body": "it pisses me off because lando is and has been bothered by max, mclaren as a team very clearly are bothered by max but OSCAR was chilling. he was in second. he should\u2019ve won this race. but because his TEAM are so fucking paranoid about max verstappen they fumble it for him",
+            "vader_compound": 0.1047
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "top_terms": [
+          "kimi",
+          "lando",
+          "let",
+          "did",
+          "didn",
+          "feel",
+          "getting",
+          "mistake",
+          "said",
+          "pass",
+          "time",
+          "max"
+        ],
+        "n_dominant_docs": 1139,
+        "mean_sentiment": 0.015594381035996488,
+        "top_comments": [
+          {
+            "comment_id": "nrkjxzl",
+            "score": 0.9456119436562103,
+            "body": "Oscar was having a good run only for McLaren to ruin his race. That monza swap was a ridiculous decision and now he\u2019s fucked going into AD. If he\u2019s got that dawg in him, he should just take himself and Norris out.",
+            "vader_compound": -0.8316
+          },
+          {
+            "comment_id": "nrp3xv9",
+            "score": 0.9379258571892468,
+            "body": "The live footage didnt show it at the time. I think just got the part where lando overtook kimi. We thought initially kimi had a problem. Then later on they got to replay what happend.",
+            "vader_compound": -0.4019
+          },
+          {
+            "comment_id": "nrw1zdm",
+            "score": 0.9326459508729531,
+            "body": "\u201cOscar, it\u2019s last lap. Let Lando pass por da champeeionsheep. Let Lando pass por da champeeionsheep\u201d",
+            "vader_compound": 0.0
+          }
+        ]
+      }
+    ]
+  }
+]

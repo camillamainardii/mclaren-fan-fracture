@@ -1,0 +1,57 @@
+{
+  "n_nodes": 8329,
+  "n_edges": 937864,
+  "modularity": 0.26655753708481256,
+  "n_communities_with_min_size": 4,
+  "sentiment_source": "transformer (cardiffnlp/twitter-roberta)",
+  "communities": [
+    {
+      "community_id": 0,
+      "n_users": 2126,
+      "total_comments": 23312,
+      "mean_degree_cent": 0.03665930391122939,
+      "mean_betweenness_cent": 0.00012970904788553656,
+      "mean_sent_Norris": -0.14269658956301942,
+      "mean_sent_Piastri": -0.12046375078980996,
+      "mean_sent_McLaren": -0.16707053060655627,
+      "mean_sent_Verstappen": 0.0011737823361921615,
+      "norris_minus_piastri": -0.02223283877320946
+    },
+    {
+      "community_id": 1,
+      "n_users": 2383,
+      "total_comments": 19735,
+      "mean_degree_cent": 0.019602608615380348,
+      "mean_betweenness_cent": 0.00010036339867128681,
+      "mean_sent_Norris": -0.21114379230395122,
+      "mean_sent_Piastri": -0.1493382441606551,
+      "mean_sent_McLaren": -0.20263040399344137,
+      "mean_sent_Verstappen": -0.12965842739690603,
+      "norris_minus_piastri": -0.06180554814329611
+    },
+    {
+      "community_id": 2,
+      "n_users": 3177,
+      "total_comments": 28100,
+      "mean_degree_cent": 0.02594241995708221,
+      "mean_betweenness_cent": 0.0001480862353135619,
+      "mean_sent_Norris": -0.10344726596497184,
+      "mean_sent_Piastri": -0.1060378409885409,
+      "mean_sent_McLaren": -0.14987033272772257,
+      "mean_sent_Verstappen": 0.0321687073302209,
+      "norris_minus_piastri": 0.002590575023569061
+    },
+    {
+      "community_id": 3,
+      "n_users": 643,
+      "total_comments": 6222,
+      "mean_degree_cent": 0.028245324285925525,
+      "mean_betweenness_cent": 7.72007607583624e-05,
+      "mean_sent_Norris": -0.10361697183777056,
+      "mean_sent_Piastri": -0.18817712135992376,
+      "mean_sent_McLaren": -0.26962147951211807,
+      "mean_sent_Verstappen": 0.019833249317445463,
+      "norris_minus_piastri": 0.0845601495221532
+    }
+  ]
+}
